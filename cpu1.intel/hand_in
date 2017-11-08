@@ -1,1 +1,1 @@
-/home/raul/osp/bin/run_osp.intel  /home/raul/osp/cpu1.intel 'cpu.c '  
+/home/osp/bin/run_osp.intel  /home/osp/cpu4.intel 'cpu.c '  
