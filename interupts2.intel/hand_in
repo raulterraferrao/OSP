@@ -1,0 +1,1 @@
+/home/osp/bin/run_osp.intel  /home/osp/interupts2.intel 'inter.c timeint.c procsvc.c pageint.c devint.c iosvc.c '  

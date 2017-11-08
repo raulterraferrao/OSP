@@ -1,0 +1,1 @@
+~/osp/bin/run_osp.intel  ~/osp/cpu2.intel 'cpu.c '  

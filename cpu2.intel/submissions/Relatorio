@@ -1,0 +1,34 @@
+Ao fazer a modificação do round-robin padrão descrito no primeiro trabalho com o
+round-robin modificado verificamos que:
+
+O quantum foi modificado para cada processo de acordo com o seu uso de cpu.
+Processos que utilizam muito a cpu terão seu quantum dobrado caso atinja mais de 90%
+do tempo de quantum, enquanto processos que não utilizam se quer 10% do tempo de cpu
+terão o seu quantum diminuido pela metade para a próxima chamada.
+
+Esta politica tende a minimizar o overhead do sistema com uma forma de prever qual será
+o tipo de cada processo(intenso de cpu e i/o) e o tempo que cada processo levará na sua 
+próxima execução.
+
+Desse modo verificamos que quando um processo intensivo de cpu é escalonado ele tende
+a utilizar todo o seu quantum. Toda vez que ele utilizar esse total é dado a ele o dobra
+de quantum para o  próximo escalonamento fazendo com que o overhead do sistema seja diminuido
+ja que por exemplo se era necessário para ele um tempo de 1000ms para executar uma tarefa e se
+o quantum fosse estático de 100ms por escalonamento, o sistema operacional deveria fazer cerca
+de 10 chaveamentos. Nesse novo método é preciso somente 4 chaveamentos tendo em vista que na
+primeira, segundo, terceira e quarta chamada ele gastaria 100,200,400,300 de tempo de cpu 
+respectivamente.
+
+Através disso podemos dizer que indiretamente o escalonamento proprosto na segunda implementação
+favorece os processos intensivos de cpu por terem um quantum maior e com isso terão uma maior 
+utilização do cpu. Porém processos intensivos de I/O sempre terão chance de utilizar também a cpu
+o que torna a politica justa.
+
+Uma proposta que melhoraria o desempenho dessa segunda implementação seria utilizar multiplas filas
+com prioridade na qual cada tipo de processo estaria em uma fila distinta. Processos intesivos de I/o
+ficariam na fila de maior prioridade e com um quantum menor para sua execucação e processos intensivos
+de CPU em uma fila com uma menor prioridade e com um quantum maior para a sua execução e entre esses dois
+tipos os demais processos. 
+
+
+

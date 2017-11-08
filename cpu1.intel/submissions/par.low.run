@@ -1,0 +1,2935 @@
+
+
+
+*******************************************************************
+*                                                                 *
+*              WELCOME TO OPERATING SYSTEM PROJECT               *
+*                         Release 1.7                             *
+*                                                                 *
+*******************************************************************
+
+
+
+Copyright (C) 1990  The Research Foundation of SUNY,
+		    Michael Kifer and Scott S. Smolka
+
+(see $HOME/LICENCE for terms and conditions)
+
+
+
+
+================  Summary of Simulation Parameters  ===============
+
+Intensity of New Process Creation               = 4
+Average CPU Time per Process                    = 100
+Overall Frequency of Events                     = 4
+  Share of Memory Related Events                   = 2
+  Share of I/O Related Events                      = 2
+  Share of Resource Related Events                 = 2
+  Share of Socket Related Events                   = 4
+Socket simulation mode                             = stream and dgram
+CPU Time Quantum                                = 100
+Degree of Prepaging                             = 0
+Memory Reference Pattern                        = random
+Deadlock Handling Method                        = avoidance
+Simulation Time                                 = 40000
+Number of Snapshots                             = 4
+Trace Switch                                    = off
+Type of Run                                     = noninteractive
+
+
+
+====================  Beginning of Simulation  ====================
+
+
+Processo 0 , tempo desde o ultimo escalonamento 16
+Processo 0 , tempo desde o ultimo escalonamento 34
+Processo 1 , tempo desde o ultimo escalonamento 23
+Processo 2 , tempo desde o ultimo escalonamento 4
+Processo 2 , tempo desde o ultimo escalonamento 33
+Processo 2 , tempo desde o ultimo escalonamento 3
+Processo 2 , tempo desde o ultimo escalonamento 2
+Processo 2 , tempo desde o ultimo escalonamento 9
+Processo 2 , tempo desde o ultimo escalonamento 13
+Processo 2 , tempo desde o ultimo escalonamento 12
+Processo 2 , tempo desde o ultimo escalonamento 11
+Processo 2 , tempo desde o ultimo escalonamento 2
+Processo 3 , tempo desde o ultimo escalonamento 10
+Processo 3 , tempo desde o ultimo escalonamento 12
+Processo 3 , tempo desde o ultimo escalonamento 38
+Processo 3 , tempo desde o ultimo escalonamento 24
+Processo 3 , tempo desde o ultimo escalonamento 24
+Processo 4 , tempo desde o ultimo escalonamento 4
+Processo 4 , tempo desde o ultimo escalonamento 24
+Processo 4 , tempo desde o ultimo escalonamento 11
+Processo 4 , tempo desde o ultimo escalonamento 11
+Processo 4 , tempo desde o ultimo escalonamento 11
+Processo 4 , tempo desde o ultimo escalonamento 13
+Processo 4 , tempo desde o ultimo escalonamento 2
+Processo 4 , tempo desde o ultimo escalonamento 35
+Processo 4 , tempo desde o ultimo escalonamento 30
+Processo 4 , tempo desde o ultimo escalonamento 21
+Processo 2 , tempo desde o ultimo escalonamento 440
+Processo 4 , tempo desde o ultimo escalonamento 13
+Processo 2 , tempo desde o ultimo escalonamento 6
+Processo 4 , tempo desde o ultimo escalonamento 18
+Processo 2 , tempo desde o ultimo escalonamento 28
+Processo 4 , tempo desde o ultimo escalonamento 16
+Processo 4 , tempo desde o ultimo escalonamento 0
+Processo 4 , tempo desde o ultimo escalonamento 20
+Processo 4 , tempo desde o ultimo escalonamento 2
+Processo 4 , tempo desde o ultimo escalonamento 11
+Processo 4 , tempo desde o ultimo escalonamento 20
+Processo 4 , tempo desde o ultimo escalonamento 31
+Processo 4 , tempo desde o ultimo escalonamento 26
+Processo 4 , tempo desde o ultimo escalonamento 30
+Processo 4 , tempo desde o ultimo escalonamento 5
+Processo 4 , tempo desde o ultimo escalonamento 15
+Processo 4 , tempo desde o ultimo escalonamento 10
+Processo 4 , tempo desde o ultimo escalonamento 21
+Processo 4 , tempo desde o ultimo escalonamento 6
+Processo 4 , tempo desde o ultimo escalonamento 7
+Processo 4 , tempo desde o ultimo escalonamento 29
+Processo 5 , tempo desde o ultimo escalonamento 58
+Processo 5 , tempo desde o ultimo escalonamento 2
+Processo 5 , tempo desde o ultimo escalonamento 13
+Processo 5 , tempo desde o ultimo escalonamento 20
+Processo 5 , tempo desde o ultimo escalonamento 54
+Processo 5 , tempo desde o ultimo escalonamento 32
+Processo 5 , tempo desde o ultimo escalonamento 15
+Processo 5 , tempo desde o ultimo escalonamento 5
+Processo 5 , tempo desde o ultimo escalonamento 12
+Processo 5 , tempo desde o ultimo escalonamento 13
+Processo 5 , tempo desde o ultimo escalonamento 15
+Processo 6 , tempo desde o ultimo escalonamento 25
+Processo 5 , tempo desde o ultimo escalonamento 24
+Processo 6 , tempo desde o ultimo escalonamento 30
+Processo 6 , tempo desde o ultimo escalonamento 2
+Processo 5 , tempo desde o ultimo escalonamento 20
+Processo 6 , tempo desde o ultimo escalonamento 15
+Processo 5 , tempo desde o ultimo escalonamento 25
+Processo 6 , tempo desde o ultimo escalonamento 27
+Processo 5 , tempo desde o ultimo escalonamento 36
+Processo 6 , tempo desde o ultimo escalonamento 21
+Processo 5 , tempo desde o ultimo escalonamento 28
+Processo 6 , tempo desde o ultimo escalonamento 40
+Processo 7 , tempo desde o ultimo escalonamento 44
+Processo 5 , tempo desde o ultimo escalonamento 66
+Processo 6 , tempo desde o ultimo escalonamento 72
+Processo 7 , tempo desde o ultimo escalonamento 57
+Processo 5 , tempo desde o ultimo escalonamento 23
+Processo 6 , tempo desde o ultimo escalonamento 6
+Processo 7 , tempo desde o ultimo escalonamento 12
+Processo 7 , tempo desde o ultimo escalonamento 13
+Processo 7 , tempo desde o ultimo escalonamento 3
+Processo 7 , tempo desde o ultimo escalonamento 13
+Processo 7 , tempo desde o ultimo escalonamento 13
+Processo 1 , tempo desde o ultimo escalonamento 1476
+Processo 7 , tempo desde o ultimo escalonamento 9
+Processo 7 , tempo desde o ultimo escalonamento 2
+Processo 7 , tempo desde o ultimo escalonamento 19
+Processo 1 , tempo desde o ultimo escalonamento 28
+Processo 1 , tempo desde o ultimo escalonamento 11
+Processo 1 , tempo desde o ultimo escalonamento 3
+Processo 1 , tempo desde o ultimo escalonamento 17
+Processo 1 , tempo desde o ultimo escalonamento 33
+Processo 1 , tempo desde o ultimo escalonamento 51
+Processo 1 , tempo desde o ultimo escalonamento 5
+Processo 1 , tempo desde o ultimo escalonamento 11
+Processo 5 , tempo desde o ultimo escalonamento 221
+Processo 6 , tempo desde o ultimo escalonamento 228
+Processo 5 , tempo desde o ultimo escalonamento 14
+Processo 5 , tempo desde o ultimo escalonamento 31
+Processo 6 , tempo desde o ultimo escalonamento 43
+Processo 5 , tempo desde o ultimo escalonamento 12
+Processo 5 , tempo desde o ultimo escalonamento 9
+Processo 5 , tempo desde o ultimo escalonamento 35
+Processo 5 , tempo desde o ultimo escalonamento 2
+Processo 8 , tempo desde o ultimo escalonamento 21
+Processo 8 , tempo desde o ultimo escalonamento 11
+Processo 9 , tempo desde o ultimo escalonamento 6
+Processo 10 , tempo desde o ultimo escalonamento 12
+Processo 10 , tempo desde o ultimo escalonamento 15
+Processo 10 , tempo desde o ultimo escalonamento 11
+Processo 10 , tempo desde o ultimo escalonamento 25
+Processo 11 , tempo desde o ultimo escalonamento 18
+Processo 11 , tempo desde o ultimo escalonamento 0
+Processo 11 , tempo desde o ultimo escalonamento 18
+Processo 11 , tempo desde o ultimo escalonamento 20
+Processo 12 , tempo desde o ultimo escalonamento 9
+Processo 12 , tempo desde o ultimo escalonamento 8
+Processo 12 , tempo desde o ultimo escalonamento 6
+Processo 12 , tempo desde o ultimo escalonamento 12
+Processo 12 , tempo desde o ultimo escalonamento 11
+Processo 12 , tempo desde o ultimo escalonamento 15
+Processo 12 , tempo desde o ultimo escalonamento 13
+Processo 13 , tempo desde o ultimo escalonamento 21
+Processo 12 , tempo desde o ultimo escalonamento 42
+Processo 13 , tempo desde o ultimo escalonamento 69
+Processo 12 , tempo desde o ultimo escalonamento 39
+Processo 13 , tempo desde o ultimo escalonamento 9
+Processo 14 , tempo desde o ultimo escalonamento 9
+Processo 14 , tempo desde o ultimo escalonamento 13
+Processo 14 , tempo desde o ultimo escalonamento 39
+Processo 14 , tempo desde o ultimo escalonamento 38
+Processo 14 , tempo desde o ultimo escalonamento 25
+Processo 14 , tempo desde o ultimo escalonamento 18
+Processo 15 , tempo desde o ultimo escalonamento 9
+Processo 15 , tempo desde o ultimo escalonamento 7
+Processo 15 , tempo desde o ultimo escalonamento 17
+Processo 15 , tempo desde o ultimo escalonamento 3
+Processo 15 , tempo desde o ultimo escalonamento 28
+Processo 15 , tempo desde o ultimo escalonamento 5
+Processo 15 , tempo desde o ultimo escalonamento 41
+Processo 15 , tempo desde o ultimo escalonamento 38
+Processo 15 , tempo desde o ultimo escalonamento 41
+Processo 16 , tempo desde o ultimo escalonamento 14
+Processo 15 , tempo desde o ultimo escalonamento 20
+Processo 16 , tempo desde o ultimo escalonamento 23
+Processo 15 , tempo desde o ultimo escalonamento 23
+Processo 17 , tempo desde o ultimo escalonamento 21
+Processo 17 , tempo desde o ultimo escalonamento 11
+Processo 17 , tempo desde o ultimo escalonamento 15
+Processo 18 , tempo desde o ultimo escalonamento 27
+Processo 17 , tempo desde o ultimo escalonamento 15
+Processo 18 , tempo desde o ultimo escalonamento 4
+Processo 18 , tempo desde o ultimo escalonamento 11
+Processo 18 , tempo desde o ultimo escalonamento 10
+Processo 18 , tempo desde o ultimo escalonamento 29
+Processo 18 , tempo desde o ultimo escalonamento 3
+Processo 19 , tempo desde o ultimo escalonamento 29
+Processo 19 , tempo desde o ultimo escalonamento 10
+Processo 19 , tempo desde o ultimo escalonamento 14
+Processo 19 , tempo desde o ultimo escalonamento 13
+Processo 19 , tempo desde o ultimo escalonamento 9
+Processo 19 , tempo desde o ultimo escalonamento 9
+Processo 20 , tempo desde o ultimo escalonamento 31
+Processo 20 , tempo desde o ultimo escalonamento 39
+Processo 21 , tempo desde o ultimo escalonamento 9
+Processo 21 , tempo desde o ultimo escalonamento 22
+Processo 22 , tempo desde o ultimo escalonamento 32
+Processo 21 , tempo desde o ultimo escalonamento 42
+Processo 22 , tempo desde o ultimo escalonamento 45
+Processo 21 , tempo desde o ultimo escalonamento 37
+Processo 22 , tempo desde o ultimo escalonamento 79
+Processo 21 , tempo desde o ultimo escalonamento 57
+Processo 22 , tempo desde o ultimo escalonamento 28
+Processo 21 , tempo desde o ultimo escalonamento 49
+Processo 23 , tempo desde o ultimo escalonamento 41
+Processo 22 , tempo desde o ultimo escalonamento 45
+Processo 21 , tempo desde o ultimo escalonamento 41
+Processo 23 , tempo desde o ultimo escalonamento 48
+Processo 10 , tempo desde o ultimo escalonamento 1802
+Processo 22 , tempo desde o ultimo escalonamento 59
+Processo 21 , tempo desde o ultimo escalonamento 42
+Processo 23 , tempo desde o ultimo escalonamento 41
+Processo 10 , tempo desde o ultimo escalonamento 86
+Processo 22 , tempo desde o ultimo escalonamento 78
+Processo 21 , tempo desde o ultimo escalonamento 102
+Processo 23 , tempo desde o ultimo escalonamento 119
+Processo 24 , tempo desde o ultimo escalonamento 127
+Processo 25 , tempo desde o ultimo escalonamento 75
+Processo 22 , tempo desde o ultimo escalonamento 83
+Processo 21 , tempo desde o ultimo escalonamento 125
+Processo 26 , tempo desde o ultimo escalonamento 140
+Processo 23 , tempo desde o ultimo escalonamento 134
+Processo 25 , tempo desde o ultimo escalonamento 131
+Processo 22 , tempo desde o ultimo escalonamento 138
+Processo 21 , tempo desde o ultimo escalonamento 82
+Processo 26 , tempo desde o ultimo escalonamento 70
+Processo 23 , tempo desde o ultimo escalonamento 66
+Processo 25 , tempo desde o ultimo escalonamento 118
+Processo 22 , tempo desde o ultimo escalonamento 103
+Processo 26 , tempo desde o ultimo escalonamento 101
+Processo 23 , tempo desde o ultimo escalonamento 96
+Processo 25 , tempo desde o ultimo escalonamento 37
+Processo 22 , tempo desde o ultimo escalonamento 32
+Processo 18 , tempo desde o ultimo escalonamento 1176
+Processo 26 , tempo desde o ultimo escalonamento 45
+Processo 23 , tempo desde o ultimo escalonamento 40
+Processo 22 , tempo desde o ultimo escalonamento 38
+Processo 18 , tempo desde o ultimo escalonamento 15
+Processo 26 , tempo desde o ultimo escalonamento 16
+Processo 23 , tempo desde o ultimo escalonamento 17
+Processo 22 , tempo desde o ultimo escalonamento 22
+Processo 26 , tempo desde o ultimo escalonamento 23
+Processo 23 , tempo desde o ultimo escalonamento 60
+Processo 22 , tempo desde o ultimo escalonamento 56
+Processo 26 , tempo desde o ultimo escalonamento 65
+Processo 23 , tempo desde o ultimo escalonamento 55
+Processo 26 , tempo desde o ultimo escalonamento 45
+Processo 27 , tempo desde o ultimo escalonamento 32
+Processo 26 , tempo desde o ultimo escalonamento 19
+Processo 27 , tempo desde o ultimo escalonamento 22
+Processo 27 , tempo desde o ultimo escalonamento 15
+Processo 27 , tempo desde o ultimo escalonamento 25
+Processo 27 , tempo desde o ultimo escalonamento 45
+Processo 27 , tempo desde o ultimo escalonamento 19
+Processo 27 , tempo desde o ultimo escalonamento 33
+Processo 26 , tempo desde o ultimo escalonamento 166
+Processo 27 , tempo desde o ultimo escalonamento 30
+Processo 26 , tempo desde o ultimo escalonamento 27
+Processo 26 , tempo desde o ultimo escalonamento 10
+Processo 26 , tempo desde o ultimo escalonamento 15
+Processo 26 , tempo desde o ultimo escalonamento 45
+Processo 18 , tempo desde o ultimo escalonamento 433
+Processo 26 , tempo desde o ultimo escalonamento 26
+Processo 18 , tempo desde o ultimo escalonamento 25
+Processo 26 , tempo desde o ultimo escalonamento 37
+Processo 18 , tempo desde o ultimo escalonamento 36
+Processo 28 , tempo desde o ultimo escalonamento 36
+Processo 26 , tempo desde o ultimo escalonamento 33
+Processo 18 , tempo desde o ultimo escalonamento 25
+Processo 28 , tempo desde o ultimo escalonamento 19
+Processo 29 , tempo desde o ultimo escalonamento 57
+Processo 26 , tempo desde o ultimo escalonamento 57
+Processo 18 , tempo desde o ultimo escalonamento 84
+Processo 28 , tempo desde o ultimo escalonamento 83
+Processo 30 , tempo desde o ultimo escalonamento 60
+Processo 29 , tempo desde o ultimo escalonamento 78
+Processo 26 , tempo desde o ultimo escalonamento 82
+Processo 31 , tempo desde o ultimo escalonamento 71
+Processo 28 , tempo desde o ultimo escalonamento 67
+Processo 30 , tempo desde o ultimo escalonamento 84
+Processo 29 , tempo desde o ultimo escalonamento 52
+Processo 18 , tempo desde o ultimo escalonamento 113
+Processo 26 , tempo desde o ultimo escalonamento 97
+Processo 31 , tempo desde o ultimo escalonamento 95
+Processo 28 , tempo desde o ultimo escalonamento 84
+Processo 30 , tempo desde o ultimo escalonamento 67
+Processo 29 , tempo desde o ultimo escalonamento 65
+Processo 18 , tempo desde o ultimo escalonamento 72
+Processo 26 , tempo desde o ultimo escalonamento 106
+Processo 28 , tempo desde o ultimo escalonamento 110
+Processo 30 , tempo desde o ultimo escalonamento 111
+Processo 29 , tempo desde o ultimo escalonamento 113
+Processo 18 , tempo desde o ultimo escalonamento 115
+Processo 33 , tempo desde o ultimo escalonamento 70
+Processo 26 , tempo desde o ultimo escalonamento 60
+Processo 30 , tempo desde o ultimo escalonamento 64
+Processo 34 , tempo desde o ultimo escalonamento 59
+Processo 29 , tempo desde o ultimo escalonamento 67
+Processo 33 , tempo desde o ultimo escalonamento 49
+Processo 30 , tempo desde o ultimo escalonamento 33
+Processo 34 , tempo desde o ultimo escalonamento 32
+Processo 18 , tempo desde o ultimo escalonamento 73
+Processo 29 , tempo desde o ultimo escalonamento 39
+Processo 30 , tempo desde o ultimo escalonamento 72
+Processo 34 , tempo desde o ultimo escalonamento 89
+Processo 18 , tempo desde o ultimo escalonamento 112
+Processo 29 , tempo desde o ultimo escalonamento 102
+Processo 30 , tempo desde o ultimo escalonamento 60
+Processo 34 , tempo desde o ultimo escalonamento 54
+Processo 18 , tempo desde o ultimo escalonamento 40
+Processo 30 , tempo desde o ultimo escalonamento 69
+Processo 34 , tempo desde o ultimo escalonamento 76
+Processo 35 , tempo desde o ultimo escalonamento 77
+Processo 18 , tempo desde o ultimo escalonamento 86
+Processo 34 , tempo desde o ultimo escalonamento 56
+Processo 35 , tempo desde o ultimo escalonamento 60
+Processo 26 , tempo desde o ultimo escalonamento 339
+Processo 34 , tempo desde o ultimo escalonamento 17
+Processo 35 , tempo desde o ultimo escalonamento 14
+Processo 26 , tempo desde o ultimo escalonamento 11
+Processo 34 , tempo desde o ultimo escalonamento 37
+Processo 36 , tempo desde o ultimo escalonamento 42
+Processo 26 , tempo desde o ultimo escalonamento 48
+Processo 34 , tempo desde o ultimo escalonamento 55
+Processo 36 , tempo desde o ultimo escalonamento 61
+Processo 26 , tempo desde o ultimo escalonamento 61
+Processo 34 , tempo desde o ultimo escalonamento 33
+Processo 35 , tempo desde o ultimo escalonamento 140
+Processo 38 , tempo desde o ultimo escalonamento 49
+Processo 36 , tempo desde o ultimo escalonamento 45
+Processo 26 , tempo desde o ultimo escalonamento 83
+Processo 34 , tempo desde o ultimo escalonamento 84
+Processo 35 , tempo desde o ultimo escalonamento 83
+Processo 38 , tempo desde o ultimo escalonamento 84
+Processo 36 , tempo desde o ultimo escalonamento 105
+Processo 26 , tempo desde o ultimo escalonamento 59
+Processo 39 , tempo desde o ultimo escalonamento 67
+Processo 34 , tempo desde o ultimo escalonamento 101
+Processo 35 , tempo desde o ultimo escalonamento 115
+Processo 38 , tempo desde o ultimo escalonamento 128
+Processo 26 , tempo desde o ultimo escalonamento 140
+Processo 39 , tempo desde o ultimo escalonamento 138
+Processo 40 , tempo desde o ultimo escalonamento 114
+Processo 34 , tempo desde o ultimo escalonamento 102
+Processo 35 , tempo desde o ultimo escalonamento 86
+Processo 38 , tempo desde o ultimo escalonamento 111
+Processo 26 , tempo desde o ultimo escalonamento 79
+Processo 39 , tempo desde o ultimo escalonamento 77
+Processo 40 , tempo desde o ultimo escalonamento 81
+Processo 34 , tempo desde o ultimo escalonamento 85
+Processo 35 , tempo desde o ultimo escalonamento 79
+Processo 37 , tempo desde o ultimo escalonamento 452
+Processo 39 , tempo desde o ultimo escalonamento 53
+Processo 40 , tempo desde o ultimo escalonamento 55
+Processo 34 , tempo desde o ultimo escalonamento 65
+Processo 35 , tempo desde o ultimo escalonamento 79
+Processo 39 , tempo desde o ultimo escalonamento 68
+Processo 40 , tempo desde o ultimo escalonamento 74
+Processo 34 , tempo desde o ultimo escalonamento 114
+Processo 35 , tempo desde o ultimo escalonamento 96
+Processo 39 , tempo desde o ultimo escalonamento 100
+Processo 40 , tempo desde o ultimo escalonamento 89
+Processo 38 , tempo desde o ultimo escalonamento 243
+Processo 34 , tempo desde o ultimo escalonamento 83
+Processo 40 , tempo desde o ultimo escalonamento 72
+Processo 38 , tempo desde o ultimo escalonamento 71
+Processo 26 , tempo desde o ultimo escalonamento 322
+Processo 40 , tempo desde o ultimo escalonamento 27
+Processo 38 , tempo desde o ultimo escalonamento 20
+Processo 38 , tempo desde o ultimo escalonamento 15
+Processo 38 , tempo desde o ultimo escalonamento 4
+Processo 38 , tempo desde o ultimo escalonamento 66
+Processo 38 , tempo desde o ultimo escalonamento 5
+Processo 38 , tempo desde o ultimo escalonamento 4
+Processo 38 , tempo desde o ultimo escalonamento 1
+Processo 38 , tempo desde o ultimo escalonamento 7
+Processo 39 , tempo desde o ultimo escalonamento 250
+Processo 38 , tempo desde o ultimo escalonamento 89
+Processo 37 , tempo desde o ultimo escalonamento 467
+Processo 39 , tempo desde o ultimo escalonamento 55
+Processo 38 , tempo desde o ultimo escalonamento 12
+Processo 39 , tempo desde o ultimo escalonamento 3
+Processo 38 , tempo desde o ultimo escalonamento 18
+Processo 38 , tempo desde o ultimo escalonamento 19
+Processo 38 , tempo desde o ultimo escalonamento 15
+Processo 38 , tempo desde o ultimo escalonamento 3
+Processo 38 , tempo desde o ultimo escalonamento 3
+Processo 38 , tempo desde o ultimo escalonamento 13
+Processo 26 , tempo desde o ultimo escalonamento 286
+Processo 38 , tempo desde o ultimo escalonamento 11
+Processo 26 , tempo desde o ultimo escalonamento 15
+Processo 38 , tempo desde o ultimo escalonamento 9
+Processo 26 , tempo desde o ultimo escalonamento 5
+Processo 38 , tempo desde o ultimo escalonamento 10
+Processo 26 , tempo desde o ultimo escalonamento 13
+Processo 38 , tempo desde o ultimo escalonamento 34
+Processo 39 , tempo desde o ultimo escalonamento 134
+Processo 38 , tempo desde o ultimo escalonamento 11
+Processo 39 , tempo desde o ultimo escalonamento 39
+Processo 41 , tempo desde o ultimo escalonamento 14
+Processo 41 , tempo desde o ultimo escalonamento 21
+Processo 37 , tempo desde o ultimo escalonamento 249
+Processo 41 , tempo desde o ultimo escalonamento 11
+Processo 37 , tempo desde o ultimo escalonamento 26
+Processo 41 , tempo desde o ultimo escalonamento 23
+Processo 37 , tempo desde o ultimo escalonamento 28
+Processo 41 , tempo desde o ultimo escalonamento 36
+Processo 42 , tempo desde o ultimo escalonamento 79
+Processo 37 , tempo desde o ultimo escalonamento 70
+Processo 41 , tempo desde o ultimo escalonamento 79
+Processo 42 , tempo desde o ultimo escalonamento 39
+Processo 37 , tempo desde o ultimo escalonamento 25
+Processo 41 , tempo desde o ultimo escalonamento 10
+Processo 42 , tempo desde o ultimo escalonamento 7
+Processo 37 , tempo desde o ultimo escalonamento 14
+Processo 41 , tempo desde o ultimo escalonamento 14
+Processo 42 , tempo desde o ultimo escalonamento 16
+Processo 43 , tempo desde o ultimo escalonamento 25
+Processo 42 , tempo desde o ultimo escalonamento 22
+Processo 43 , tempo desde o ultimo escalonamento 21
+Processo 37 , tempo desde o ultimo escalonamento 54
+Processo 42 , tempo desde o ultimo escalonamento 25
+Processo 43 , tempo desde o ultimo escalonamento 16
+Processo 37 , tempo desde o ultimo escalonamento 24
+Processo 42 , tempo desde o ultimo escalonamento 33
+Processo 44 , tempo desde o ultimo escalonamento 38
+Processo 37 , tempo desde o ultimo escalonamento 22
+Processo 42 , tempo desde o ultimo escalonamento 38
+Processo 44 , tempo desde o ultimo escalonamento 35
+Processo 37 , tempo desde o ultimo escalonamento 56
+Processo 43 , tempo desde o ultimo escalonamento 99
+Processo 45 , tempo desde o ultimo escalonamento 54
+Processo 42 , tempo desde o ultimo escalonamento 52
+Processo 44 , tempo desde o ultimo escalonamento 55
+Processo 37 , tempo desde o ultimo escalonamento 33
+Processo 43 , tempo desde o ultimo escalonamento 47
+Processo 42 , tempo desde o ultimo escalonamento 30
+Processo 44 , tempo desde o ultimo escalonamento 38
+Processo 37 , tempo desde o ultimo escalonamento 41
+Processo 42 , tempo desde o ultimo escalonamento 37
+Processo 37 , tempo desde o ultimo escalonamento 23
+Processo 42 , tempo desde o ultimo escalonamento 28
+Processo 37 , tempo desde o ultimo escalonamento 22
+Processo 43 , tempo desde o ultimo escalonamento 78
+Processo 43 , tempo desde o ultimo escalonamento 11
+Processo 43 , tempo desde o ultimo escalonamento 82
+Processo 43 , tempo desde o ultimo escalonamento 7
+Processo 47 , tempo desde o ultimo escalonamento 21
+Processo 43 , tempo desde o ultimo escalonamento 29
+Processo 47 , tempo desde o ultimo escalonamento 15
+Processo 43 , tempo desde o ultimo escalonamento 26
+Processo 47 , tempo desde o ultimo escalonamento 38
+Processo 48 , tempo desde o ultimo escalonamento 41
+Processo 43 , tempo desde o ultimo escalonamento 29
+Processo 47 , tempo desde o ultimo escalonamento 20
+Processo 48 , tempo desde o ultimo escalonamento 17
+Processo 43 , tempo desde o ultimo escalonamento 39
+Processo 47 , tempo desde o ultimo escalonamento 40
+Processo 37 , tempo desde o ultimo escalonamento 247
+Processo 49 , tempo desde o ultimo escalonamento 64
+Processo 48 , tempo desde o ultimo escalonamento 57
+Processo 43 , tempo desde o ultimo escalonamento 58
+Processo 47 , tempo desde o ultimo escalonamento 63
+Processo 37 , tempo desde o ultimo escalonamento 55
+Processo 49 , tempo desde o ultimo escalonamento 45
+Processo 48 , tempo desde o ultimo escalonamento 55
+Processo 43 , tempo desde o ultimo escalonamento 60
+Processo 39 , tempo desde o ultimo escalonamento 850
+Processo 47 , tempo desde o ultimo escalonamento 54
+Processo 37 , tempo desde o ultimo escalonamento 66
+Processo 49 , tempo desde o ultimo escalonamento 84
+Processo 48 , tempo desde o ultimo escalonamento 74
+Processo 39 , tempo desde o ultimo escalonamento 51
+Processo 47 , tempo desde o ultimo escalonamento 60
+Processo 37 , tempo desde o ultimo escalonamento 45
+Processo 49 , tempo desde o ultimo escalonamento 30
+Processo 37 , tempo desde o ultimo escalonamento 10
+Processo 37 , tempo desde o ultimo escalonamento 21
+Processo 37 , tempo desde o ultimo escalonamento 22
+Processo 48 , tempo desde o ultimo escalonamento 116
+Processo 48 , tempo desde o ultimo escalonamento 11
+Processo 48 , tempo desde o ultimo escalonamento 13
+Processo 51 , tempo desde o ultimo escalonamento 21
+Processo 51 , tempo desde o ultimo escalonamento 4
+Processo 51 , tempo desde o ultimo escalonamento 8
+Processo 51 , tempo desde o ultimo escalonamento 9
+Processo 39 , tempo desde o ultimo escalonamento 197
+Processo 52 , tempo desde o ultimo escalonamento 26
+Processo 48 , tempo desde o ultimo escalonamento 83
+Processo 39 , tempo desde o ultimo escalonamento 24
+Processo 52 , tempo desde o ultimo escalonamento 21
+Processo 48 , tempo desde o ultimo escalonamento 21
+Processo 47 , tempo desde o ultimo escalonamento 232
+Processo 39 , tempo desde o ultimo escalonamento 30
+Processo 52 , tempo desde o ultimo escalonamento 74
+Processo 48 , tempo desde o ultimo escalonamento 75
+Processo 44 , tempo desde o ultimo escalonamento 764
+Processo 47 , tempo desde o ultimo escalonamento 90
+Processo 39 , tempo desde o ultimo escalonamento 98
+Processo 52 , tempo desde o ultimo escalonamento 68
+Processo 48 , tempo desde o ultimo escalonamento 57
+Processo 44 , tempo desde o ultimo escalonamento 54
+Processo 47 , tempo desde o ultimo escalonamento 50
+Processo 39 , tempo desde o ultimo escalonamento 46
+Processo 52 , tempo desde o ultimo escalonamento 32
+Processo 48 , tempo desde o ultimo escalonamento 48
+Processo 47 , tempo desde o ultimo escalonamento 48
+Processo 39 , tempo desde o ultimo escalonamento 54
+Processo 44 , tempo desde o ultimo escalonamento 82
+Processo 52 , tempo desde o ultimo escalonamento 76
+Processo 43 , tempo desde o ultimo escalonamento 533
+Processo 48 , tempo desde o ultimo escalonamento 70
+Processo 47 , tempo desde o ultimo escalonamento 55
+Processo 39 , tempo desde o ultimo escalonamento 51
+Processo 52 , tempo desde o ultimo escalonamento 36
+Processo 48 , tempo desde o ultimo escalonamento 35
+Processo 47 , tempo desde o ultimo escalonamento 36
+Processo 52 , tempo desde o ultimo escalonamento 42
+Processo 47 , tempo desde o ultimo escalonamento 38
+Processo 52 , tempo desde o ultimo escalonamento 8
+Processo 47 , tempo desde o ultimo escalonamento 15
+Processo 52 , tempo desde o ultimo escalonamento 27
+Processo 47 , tempo desde o ultimo escalonamento 16
+Processo 52 , tempo desde o ultimo escalonamento 8
+Processo 47 , tempo desde o ultimo escalonamento 17
+Processo 54 , tempo desde o ultimo escalonamento 18
+Processo 47 , tempo desde o ultimo escalonamento 18
+Processo 54 , tempo desde o ultimo escalonamento 20
+Processo 47 , tempo desde o ultimo escalonamento 23
+Processo 54 , tempo desde o ultimo escalonamento 19
+Processo 39 , tempo desde o ultimo escalonamento 158
+Processo 47 , tempo desde o ultimo escalonamento 12
+Processo 47 , tempo desde o ultimo escalonamento 29
+Processo 47 , tempo desde o ultimo escalonamento 14
+Processo 47 , tempo desde o ultimo escalonamento 17
+Processo 47 , tempo desde o ultimo escalonamento 10
+Processo 47 , tempo desde o ultimo escalonamento 31
+Processo 47 , tempo desde o ultimo escalonamento 8
+Processo 47 , tempo desde o ultimo escalonamento 5
+Processo 39 , tempo desde o ultimo escalonamento 140
+Processo 47 , tempo desde o ultimo escalonamento 84
+Processo 52 , tempo desde o ultimo escalonamento 264
+Processo 39 , tempo desde o ultimo escalonamento 65
+Processo 47 , tempo desde o ultimo escalonamento 31
+Processo 52 , tempo desde o ultimo escalonamento 35
+Processo 39 , tempo desde o ultimo escalonamento 42
+Processo 55 , tempo desde o ultimo escalonamento 47
+Processo 52 , tempo desde o ultimo escalonamento 34
+Processo 55 , tempo desde o ultimo escalonamento 11
+Processo 47 , tempo desde o ultimo escalonamento 57
+Processo 56 , tempo desde o ultimo escalonamento 23
+Processo 55 , tempo desde o ultimo escalonamento 20
+Processo 39 , tempo desde o ultimo escalonamento 64
+Processo 56 , tempo desde o ultimo escalonamento 23
+Processo 55 , tempo desde o ultimo escalonamento 26
+Processo 56 , tempo desde o ultimo escalonamento 21
+Processo 55 , tempo desde o ultimo escalonamento 13
+Processo 47 , tempo desde o ultimo escalonamento 59
+Processo 56 , tempo desde o ultimo escalonamento 20
+Processo 55 , tempo desde o ultimo escalonamento 61
+Processo 47 , tempo desde o ultimo escalonamento 60
+Processo 51 , tempo desde o ultimo escalonamento 887
+Processo 56 , tempo desde o ultimo escalonamento 69
+Processo 55 , tempo desde o ultimo escalonamento 57
+Processo 47 , tempo desde o ultimo escalonamento 59
+Processo 51 , tempo desde o ultimo escalonamento 58
+Processo 56 , tempo desde o ultimo escalonamento 44
+Processo 55 , tempo desde o ultimo escalonamento 26
+Processo 57 , tempo desde o ultimo escalonamento 52
+Processo 47 , tempo desde o ultimo escalonamento 58
+Processo 51 , tempo desde o ultimo escalonamento 62
+Processo 56 , tempo desde o ultimo escalonamento 85
+Processo 55 , tempo desde o ultimo escalonamento 77
+Processo 58 , tempo desde o ultimo escalonamento 64
+Processo 59 , tempo desde o ultimo escalonamento 50
+Processo 47 , tempo desde o ultimo escalonamento 69
+Processo 55 , tempo desde o ultimo escalonamento 47
+Processo 58 , tempo desde o ultimo escalonamento 64
+Processo 56 , tempo desde o ultimo escalonamento 93
+Processo 59 , tempo desde o ultimo escalonamento 94
+Processo 47 , tempo desde o ultimo escalonamento 72
+Processo 60 , tempo desde o ultimo escalonamento 84
+Processo 55 , tempo desde o ultimo escalonamento 81
+Processo 58 , tempo desde o ultimo escalonamento 77
+Processo 56 , tempo desde o ultimo escalonamento 72
+Processo 59 , tempo desde o ultimo escalonamento 62
+Processo 60 , tempo desde o ultimo escalonamento 76
+Processo 55 , tempo desde o ultimo escalonamento 76
+Processo 58 , tempo desde o ultimo escalonamento 94
+Processo 56 , tempo desde o ultimo escalonamento 94
+Processo 59 , tempo desde o ultimo escalonamento 93
+Processo 61 , tempo desde o ultimo escalonamento 90
+Processo 55 , tempo desde o ultimo escalonamento 91
+Processo 58 , tempo desde o ultimo escalonamento 73
+Processo 56 , tempo desde o ultimo escalonamento 59
+Processo 59 , tempo desde o ultimo escalonamento 66
+Processo 61 , tempo desde o ultimo escalonamento 52
+Processo 55 , tempo desde o ultimo escalonamento 61
+Processo 58 , tempo desde o ultimo escalonamento 60
+Processo 56 , tempo desde o ultimo escalonamento 72
+Processo 61 , tempo desde o ultimo escalonamento 70
+Processo 58 , tempo desde o ultimo escalonamento 42
+Processo 56 , tempo desde o ultimo escalonamento 28
+Processo 58 , tempo desde o ultimo escalonamento 11
+Processo 56 , tempo desde o ultimo escalonamento 17
+Processo 60 , tempo desde o ultimo escalonamento 236
+Processo 56 , tempo desde o ultimo escalonamento 16
+Processo 60 , tempo desde o ultimo escalonamento 16
+Processo 60 , tempo desde o ultimo escalonamento 13
+Processo 60 , tempo desde o ultimo escalonamento 9
+Processo 47 , tempo desde o ultimo escalonamento 391
+Processo 60 , tempo desde o ultimo escalonamento 38
+Processo 47 , tempo desde o ultimo escalonamento 17
+Processo 39 , tempo desde o ultimo escalonamento 784
+Processo 47 , tempo desde o ultimo escalonamento 23
+Processo 39 , tempo desde o ultimo escalonamento 20
+Processo 47 , tempo desde o ultimo escalonamento 35
+Processo 47 , tempo desde o ultimo escalonamento 7
+Processo 47 , tempo desde o ultimo escalonamento 19
+Processo 47 , tempo desde o ultimo escalonamento 23
+Processo 47 , tempo desde o ultimo escalonamento 25
+Processo 58 , tempo desde o ultimo escalonamento 238
+Processo 47 , tempo desde o ultimo escalonamento 24
+Processo 58 , tempo desde o ultimo escalonamento 15
+Processo 58 , tempo desde o ultimo escalonamento 40
+Processo 58 , tempo desde o ultimo escalonamento 12
+Processo 58 , tempo desde o ultimo escalonamento 2
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                                                               ::
+::                  Snapshot at clock :  10001                   ::
+::                                                               ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+              S I M C O R E   W A I T I N G   Q U E U E 
+*****************************************************************************
+* Event   PCB   IORB   File                  RRB    Rsrc   PRRB  SocketName *
+*---------------------------------------------------------------------------*
+*   278    47   none   none                 none    none   none  none       *
+*   267    55   none   none                 none    none     52  jokes      *
+*   271    56   none   none                 none    none     54  tutorial   *
+*****************************************************************************
+
+
+
+                       S I M C O R E   P C B   T A B L E 
+*****************************************************************************
+*  PCB  Size  Created  Last dispatch  Last burst  Accum CPU  Status   Prior *
+*---------------------------------------------------------------------------*
+*   47  8017     7753           9941           5        393  waiting      0 *
+*   55  7469     8913           9626          14         93  waiting      0 *
+*   56  7003     8957           9716           7        119  waiting      0 *
+*   58  6589     9178          10000           2         85  running      0 *
+*****************************************************************************
+
+
+
+=====================  Summary of Statistics  ====================
+
+Total num of processes created                            =    62
+  Total num of processes terminated                             =   49
+  Total num of processes killed                                 =    9
+        num of processes in CPU ready queue                     =    0
+        num of processes in event waiting queues                =    3
+
+  Total num of wait requests                               =   53
+  Total num of signals                                     =  164
+  Total num of timer interrupts                            =   54
+
+CPU time used                                        =  4603
+CPU utilization                                      =     0.4603
+
+Memory utilization                                   =     0.4111
+
+System throughput ( x 1000 )                         =     4.8995
+Average num of processes during simulation           =     4.0494
+Average CPU time per process                         =    83.2097
+Average waiting time per process                     =   575.6613
+Average turnaround time per process                  =   653.1935
+
+
+
+
+Processo 58 , tempo desde o ultimo escalonamento 33
+Processo 47 , tempo desde o ultimo escalonamento 112
+Processo 47 , tempo desde o ultimo escalonamento 30
+Processo 47 , tempo desde o ultimo escalonamento 11
+Processo 47 , tempo desde o ultimo escalonamento 16
+Processo 47 , tempo desde o ultimo escalonamento 32
+Processo 62 , tempo desde o ultimo escalonamento 25
+Processo 47 , tempo desde o ultimo escalonamento 40
+Processo 62 , tempo desde o ultimo escalonamento 50
+Processo 63 , tempo desde o ultimo escalonamento 42
+Processo 58 , tempo desde o ultimo escalonamento 178
+Processo 47 , tempo desde o ultimo escalonamento 31
+Processo 62 , tempo desde o ultimo escalonamento 37
+Processo 63 , tempo desde o ultimo escalonamento 74
+Processo 58 , tempo desde o ultimo escalonamento 108
+Processo 62 , tempo desde o ultimo escalonamento 96
+Processo 64 , tempo desde o ultimo escalonamento 71
+Processo 63 , tempo desde o ultimo escalonamento 112
+Processo 47 , tempo desde o ultimo escalonamento 180
+Processo 58 , tempo desde o ultimo escalonamento 106
+Processo 56 , tempo desde o ultimo escalonamento 716
+Processo 62 , tempo desde o ultimo escalonamento 120
+Processo 65 , tempo desde o ultimo escalonamento 146
+Processo 64 , tempo desde o ultimo escalonamento 136
+Processo 47 , tempo desde o ultimo escalonamento 165
+Processo 58 , tempo desde o ultimo escalonamento 146
+Processo 56 , tempo desde o ultimo escalonamento 144
+Processo 62 , tempo desde o ultimo escalonamento 140
+Processo 65 , tempo desde o ultimo escalonamento 131
+Processo 63 , tempo desde o ultimo escalonamento 217
+Processo 64 , tempo desde o ultimo escalonamento 132
+Processo 47 , tempo desde o ultimo escalonamento 101
+Processo 63 , tempo desde o ultimo escalonamento 51
+Processo 64 , tempo desde o ultimo escalonamento 57
+Processo 47 , tempo desde o ultimo escalonamento 16
+Processo 63 , tempo desde o ultimo escalonamento 23
+Processo 64 , tempo desde o ultimo escalonamento 33
+Processo 47 , tempo desde o ultimo escalonamento 52
+Processo 63 , tempo desde o ultimo escalonamento 59
+Processo 66 , tempo desde o ultimo escalonamento 68
+Processo 64 , tempo desde o ultimo escalonamento 73
+Processo 63 , tempo desde o ultimo escalonamento 58
+Processo 58 , tempo desde o ultimo escalonamento 264
+Processo 66 , tempo desde o ultimo escalonamento 86
+Processo 64 , tempo desde o ultimo escalonamento 77
+Processo 63 , tempo desde o ultimo escalonamento 78
+Processo 58 , tempo desde o ultimo escalonamento 45
+Processo 66 , tempo desde o ultimo escalonamento 42
+Processo 64 , tempo desde o ultimo escalonamento 40
+Processo 56 , tempo desde o ultimo escalonamento 326
+Processo 58 , tempo desde o ultimo escalonamento 40
+Processo 66 , tempo desde o ultimo escalonamento 59
+Processo 64 , tempo desde o ultimo escalonamento 56
+Processo 58 , tempo desde o ultimo escalonamento 43
+Processo 66 , tempo desde o ultimo escalonamento 35
+Processo 64 , tempo desde o ultimo escalonamento 49
+Processo 58 , tempo desde o ultimo escalonamento 62
+Processo 64 , tempo desde o ultimo escalonamento 39
+Processo 58 , tempo desde o ultimo escalonamento 31
+Processo 64 , tempo desde o ultimo escalonamento 33
+Processo 58 , tempo desde o ultimo escalonamento 30
+Processo 64 , tempo desde o ultimo escalonamento 33
+Processo 58 , tempo desde o ultimo escalonamento 24
+Processo 55 , tempo desde o ultimo escalonamento 1487
+Processo 64 , tempo desde o ultimo escalonamento 10
+Processo 58 , tempo desde o ultimo escalonamento 14
+Processo 55 , tempo desde o ultimo escalonamento 14
+Processo 58 , tempo desde o ultimo escalonamento 10
+Processo 55 , tempo desde o ultimo escalonamento 20
+Processo 58 , tempo desde o ultimo escalonamento 35
+Processo 55 , tempo desde o ultimo escalonamento 48
+Processo 58 , tempo desde o ultimo escalonamento 28
+Processo 58 , tempo desde o ultimo escalonamento 13
+Processo 67 , tempo desde o ultimo escalonamento 10
+Processo 67 , tempo desde o ultimo escalonamento 16
+Processo 67 , tempo desde o ultimo escalonamento 13
+Processo 67 , tempo desde o ultimo escalonamento 3
+Processo 67 , tempo desde o ultimo escalonamento 3
+Processo 64 , tempo desde o ultimo escalonamento 144
+Processo 67 , tempo desde o ultimo escalonamento 19
+Processo 64 , tempo desde o ultimo escalonamento 28
+Processo 67 , tempo desde o ultimo escalonamento 26
+Processo 64 , tempo desde o ultimo escalonamento 24
+Processo 66 , tempo desde o ultimo escalonamento 340
+Processo 67 , tempo desde o ultimo escalonamento 53
+Processo 64 , tempo desde o ultimo escalonamento 49
+Processo 58 , tempo desde o ultimo escalonamento 155
+Processo 66 , tempo desde o ultimo escalonamento 65
+Processo 67 , tempo desde o ultimo escalonamento 42
+Processo 64 , tempo desde o ultimo escalonamento 53
+Processo 58 , tempo desde o ultimo escalonamento 51
+Processo 67 , tempo desde o ultimo escalonamento 38
+Processo 68 , tempo desde o ultimo escalonamento 46
+Processo 64 , tempo desde o ultimo escalonamento 49
+Processo 66 , tempo desde o ultimo escalonamento 107
+Processo 67 , tempo desde o ultimo escalonamento 69
+Processo 69 , tempo desde o ultimo escalonamento 67
+Processo 68 , tempo desde o ultimo escalonamento 64
+Processo 64 , tempo desde o ultimo escalonamento 84
+Processo 67 , tempo desde o ultimo escalonamento 48
+Processo 69 , tempo desde o ultimo escalonamento 66
+Processo 64 , tempo desde o ultimo escalonamento 36
+Processo 67 , tempo desde o ultimo escalonamento 48
+Processo 69 , tempo desde o ultimo escalonamento 44
+Processo 64 , tempo desde o ultimo escalonamento 41
+Processo 67 , tempo desde o ultimo escalonamento 33
+Processo 69 , tempo desde o ultimo escalonamento 41
+Processo 64 , tempo desde o ultimo escalonamento 47
+Processo 67 , tempo desde o ultimo escalonamento 65
+Processo 69 , tempo desde o ultimo escalonamento 43
+Processo 64 , tempo desde o ultimo escalonamento 28
+Processo 64 , tempo desde o ultimo escalonamento 17
+Processo 64 , tempo desde o ultimo escalonamento 28
+Processo 64 , tempo desde o ultimo escalonamento 3
+Processo 64 , tempo desde o ultimo escalonamento 5
+Processo 64 , tempo desde o ultimo escalonamento 2
+Processo 69 , tempo desde o ultimo escalonamento 69
+Processo 69 , tempo desde o ultimo escalonamento 36
+Processo 69 , tempo desde o ultimo escalonamento 7
+Processo 69 , tempo desde o ultimo escalonamento 17
+Processo 70 , tempo desde o ultimo escalonamento 13
+Processo 64 , tempo desde o ultimo escalonamento 120
+Processo 67 , tempo desde o ultimo escalonamento 193
+Processo 66 , tempo desde o ultimo escalonamento 400
+Processo 67 , tempo desde o ultimo escalonamento 10
+Processo 66 , tempo desde o ultimo escalonamento 10
+Processo 67 , tempo desde o ultimo escalonamento 18
+Processo 66 , tempo desde o ultimo escalonamento 17
+Processo 67 , tempo desde o ultimo escalonamento 10
+Processo 64 , tempo desde o ultimo escalonamento 52
+Processo 67 , tempo desde o ultimo escalonamento 10
+Processo 58 , tempo desde o ultimo escalonamento 553
+Processo 64 , tempo desde o ultimo escalonamento 43
+Processo 66 , tempo desde o ultimo escalonamento 62
+Processo 67 , tempo desde o ultimo escalonamento 66
+Processo 64 , tempo desde o ultimo escalonamento 42
+Processo 66 , tempo desde o ultimo escalonamento 50
+Processo 67 , tempo desde o ultimo escalonamento 33
+Processo 64 , tempo desde o ultimo escalonamento 39
+Processo 66 , tempo desde o ultimo escalonamento 48
+Processo 67 , tempo desde o ultimo escalonamento 62
+Processo 64 , tempo desde o ultimo escalonamento 46
+Processo 71 , tempo desde o ultimo escalonamento 56
+Processo 66 , tempo desde o ultimo escalonamento 38
+Processo 67 , tempo desde o ultimo escalonamento 56
+Processo 64 , tempo desde o ultimo escalonamento 73
+Processo 71 , tempo desde o ultimo escalonamento 67
+Processo 66 , tempo desde o ultimo escalonamento 59
+Processo 72 , tempo desde o ultimo escalonamento 63
+Processo 64 , tempo desde o ultimo escalonamento 45
+Processo 71 , tempo desde o ultimo escalonamento 42
+Processo 66 , tempo desde o ultimo escalonamento 61
+Processo 72 , tempo desde o ultimo escalonamento 55
+Processo 73 , tempo desde o ultimo escalonamento 84
+Processo 64 , tempo desde o ultimo escalonamento 74
+Processo 71 , tempo desde o ultimo escalonamento 92
+Processo 66 , tempo desde o ultimo escalonamento 87
+Processo 72 , tempo desde o ultimo escalonamento 87
+Processo 73 , tempo desde o ultimo escalonamento 85
+Processo 64 , tempo desde o ultimo escalonamento 107
+Processo 58 , tempo desde o ultimo escalonamento 446
+Processo 71 , tempo desde o ultimo escalonamento 123
+Processo 67 , tempo desde o ultimo escalonamento 303
+Processo 66 , tempo desde o ultimo escalonamento 159
+Processo 72 , tempo desde o ultimo escalonamento 190
+Processo 73 , tempo desde o ultimo escalonamento 161
+Processo 64 , tempo desde o ultimo escalonamento 138
+Processo 58 , tempo desde o ultimo escalonamento 146
+Processo 74 , tempo desde o ultimo escalonamento 276
+Processo 67 , tempo desde o ultimo escalonamento 156
+Processo 72 , tempo desde o ultimo escalonamento 100
+Processo 73 , tempo desde o ultimo escalonamento 91
+Processo 64 , tempo desde o ultimo escalonamento 111
+Processo 58 , tempo desde o ultimo escalonamento 97
+Processo 74 , tempo desde o ultimo escalonamento 77
+Processo 66 , tempo desde o ultimo escalonamento 193
+Processo 72 , tempo desde o ultimo escalonamento 66
+Processo 73 , tempo desde o ultimo escalonamento 92
+Processo 58 , tempo desde o ultimo escalonamento 64
+Processo 74 , tempo desde o ultimo escalonamento 62
+Processo 66 , tempo desde o ultimo escalonamento 62
+Processo 72 , tempo desde o ultimo escalonamento 70
+Processo 73 , tempo desde o ultimo escalonamento 48
+Processo 74 , tempo desde o ultimo escalonamento 103
+Processo 66 , tempo desde o ultimo escalonamento 99
+Processo 73 , tempo desde o ultimo escalonamento 79
+Processo 74 , tempo desde o ultimo escalonamento 32
+Processo 66 , tempo desde o ultimo escalonamento 27
+Processo 73 , tempo desde o ultimo escalonamento 47
+Processo 75 , tempo desde o ultimo escalonamento 66
+Processo 66 , tempo desde o ultimo escalonamento 69
+Processo 73 , tempo desde o ultimo escalonamento 67
+Processo 75 , tempo desde o ultimo escalonamento 76
+Processo 66 , tempo desde o ultimo escalonamento 66
+Processo 73 , tempo desde o ultimo escalonamento 61
+Processo 66 , tempo desde o ultimo escalonamento 30
+Processo 73 , tempo desde o ultimo escalonamento 36
+Processo 73 , tempo desde o ultimo escalonamento 11
+Processo 73 , tempo desde o ultimo escalonamento 13
+Processo 73 , tempo desde o ultimo escalonamento 16
+Processo 76 , tempo desde o ultimo escalonamento 36
+Processo 76 , tempo desde o ultimo escalonamento 23
+Processo 76 , tempo desde o ultimo escalonamento 23
+Processo 77 , tempo desde o ultimo escalonamento 28
+Processo 76 , tempo desde o ultimo escalonamento 12
+Processo 73 , tempo desde o ultimo escalonamento 70
+Processo 76 , tempo desde o ultimo escalonamento 24
+Processo 77 , tempo desde o ultimo escalonamento 84
+Processo 73 , tempo desde o ultimo escalonamento 98
+Processo 76 , tempo desde o ultimo escalonamento 84
+Processo 77 , tempo desde o ultimo escalonamento 53
+Processo 73 , tempo desde o ultimo escalonamento 27
+Processo 76 , tempo desde o ultimo escalonamento 25
+Processo 77 , tempo desde o ultimo escalonamento 18
+Processo 73 , tempo desde o ultimo escalonamento 34
+Processo 78 , tempo desde o ultimo escalonamento 38
+Processo 73 , tempo desde o ultimo escalonamento 23
+Processo 78 , tempo desde o ultimo escalonamento 18
+Processo 73 , tempo desde o ultimo escalonamento 17
+Processo 78 , tempo desde o ultimo escalonamento 19
+Processo 73 , tempo desde o ultimo escalonamento 28
+Processo 78 , tempo desde o ultimo escalonamento 43
+Processo 79 , tempo desde o ultimo escalonamento 38
+Processo 78 , tempo desde o ultimo escalonamento 39
+Processo 79 , tempo desde o ultimo escalonamento 36
+Processo 78 , tempo desde o ultimo escalonamento 24
+Processo 79 , tempo desde o ultimo escalonamento 33
+Processo 78 , tempo desde o ultimo escalonamento 21
+Processo 78 , tempo desde o ultimo escalonamento 12
+Processo 77 , tempo desde o ultimo escalonamento 210
+Processo 78 , tempo desde o ultimo escalonamento 19
+Processo 77 , tempo desde o ultimo escalonamento 22
+Processo 78 , tempo desde o ultimo escalonamento 17
+Processo 78 , tempo desde o ultimo escalonamento 28
+Processo 78 , tempo desde o ultimo escalonamento 10
+Processo 78 , tempo desde o ultimo escalonamento 23
+Processo 78 , tempo desde o ultimo escalonamento 7
+Processo 58 , tempo desde o ultimo escalonamento 902
+Processo 78 , tempo desde o ultimo escalonamento 16
+Processo 66 , tempo desde o ultimo escalonamento 619
+Processo 76 , tempo desde o ultimo escalonamento 374
+Processo 66 , tempo desde o ultimo escalonamento 54
+Processo 76 , tempo desde o ultimo escalonamento 61
+Processo 78 , tempo desde o ultimo escalonamento 99
+Processo 66 , tempo desde o ultimo escalonamento 23
+Processo 76 , tempo desde o ultimo escalonamento 9
+Processo 78 , tempo desde o ultimo escalonamento 17
+Processo 66 , tempo desde o ultimo escalonamento 31
+Processo 76 , tempo desde o ultimo escalonamento 40
+Processo 78 , tempo desde o ultimo escalonamento 54
+Processo 66 , tempo desde o ultimo escalonamento 48
+Processo 78 , tempo desde o ultimo escalonamento 22
+Processo 66 , tempo desde o ultimo escalonamento 77
+Processo 78 , tempo desde o ultimo escalonamento 71
+Processo 80 , tempo desde o ultimo escalonamento 31
+Processo 78 , tempo desde o ultimo escalonamento 10
+Processo 80 , tempo desde o ultimo escalonamento 60
+Processo 80 , tempo desde o ultimo escalonamento 19
+Processo 80 , tempo desde o ultimo escalonamento 13
+Processo 80 , tempo desde o ultimo escalonamento 3
+Processo 80 , tempo desde o ultimo escalonamento 24
+Processo 82 , tempo desde o ultimo escalonamento 16
+Processo 80 , tempo desde o ultimo escalonamento 3
+Processo 66 , tempo desde o ultimo escalonamento 140
+Processo 66 , tempo desde o ultimo escalonamento 8
+Processo 66 , tempo desde o ultimo escalonamento 19
+Processo 73 , tempo desde o ultimo escalonamento 687
+Processo 83 , tempo desde o ultimo escalonamento 76
+Processo 77 , tempo desde o ultimo escalonamento 577
+Processo 73 , tempo desde o ultimo escalonamento 44
+Processo 83 , tempo desde o ultimo escalonamento 15
+Processo 77 , tempo desde o ultimo escalonamento 26
+Processo 73 , tempo desde o ultimo escalonamento 32
+Processo 83 , tempo desde o ultimo escalonamento 102
+Processo 84 , tempo desde o ultimo escalonamento 113
+Processo 77 , tempo desde o ultimo escalonamento 112
+Processo 73 , tempo desde o ultimo escalonamento 112
+Processo 83 , tempo desde o ultimo escalonamento 37
+Processo 84 , tempo desde o ultimo escalonamento 35
+Processo 77 , tempo desde o ultimo escalonamento 32
+Processo 73 , tempo desde o ultimo escalonamento 22
+Processo 83 , tempo desde o ultimo escalonamento 22
+Processo 84 , tempo desde o ultimo escalonamento 16
+Processo 77 , tempo desde o ultimo escalonamento 22
+Processo 73 , tempo desde o ultimo escalonamento 64
+Processo 84 , tempo desde o ultimo escalonamento 60
+Processo 85 , tempo desde o ultimo escalonamento 57
+Processo 77 , tempo desde o ultimo escalonamento 76
+Processo 73 , tempo desde o ultimo escalonamento 39
+Processo 84 , tempo desde o ultimo escalonamento 46
+Processo 85 , tempo desde o ultimo escalonamento 44
+Processo 77 , tempo desde o ultimo escalonamento 32
+Processo 73 , tempo desde o ultimo escalonamento 35
+Processo 84 , tempo desde o ultimo escalonamento 44
+Processo 85 , tempo desde o ultimo escalonamento 43
+Processo 77 , tempo desde o ultimo escalonamento 32
+Processo 86 , tempo desde o ultimo escalonamento 41
+Processo 83 , tempo desde o ultimo escalonamento 182
+Processo 73 , tempo desde o ultimo escalonamento 50
+Processo 84 , tempo desde o ultimo escalonamento 42
+Processo 85 , tempo desde o ultimo escalonamento 46
+Processo 77 , tempo desde o ultimo escalonamento 66
+Processo 86 , tempo desde o ultimo escalonamento 70
+Processo 83 , tempo desde o ultimo escalonamento 64
+Processo 73 , tempo desde o ultimo escalonamento 69
+Processo 87 , tempo desde o ultimo escalonamento 87
+Processo 84 , tempo desde o ultimo escalonamento 84
+Processo 85 , tempo desde o ultimo escalonamento 99
+Processo 77 , tempo desde o ultimo escalonamento 82
+Processo 86 , tempo desde o ultimo escalonamento 76
+Processo 83 , tempo desde o ultimo escalonamento 83
+Processo 73 , tempo desde o ultimo escalonamento 82
+Processo 87 , tempo desde o ultimo escalonamento 88
+Processo 84 , tempo desde o ultimo escalonamento 98
+Processo 85 , tempo desde o ultimo escalonamento 89
+Processo 77 , tempo desde o ultimo escalonamento 97
+Processo 86 , tempo desde o ultimo escalonamento 114
+Processo 83 , tempo desde o ultimo escalonamento 99
+Processo 73 , tempo desde o ultimo escalonamento 123
+Processo 87 , tempo desde o ultimo escalonamento 107
+Processo 84 , tempo desde o ultimo escalonamento 108
+Processo 85 , tempo desde o ultimo escalonamento 111
+Processo 77 , tempo desde o ultimo escalonamento 113
+Processo 86 , tempo desde o ultimo escalonamento 90
+Processo 83 , tempo desde o ultimo escalonamento 90
+Processo 87 , tempo desde o ultimo escalonamento 51
+Processo 84 , tempo desde o ultimo escalonamento 62
+Processo 85 , tempo desde o ultimo escalonamento 59
+Processo 77 , tempo desde o ultimo escalonamento 65
+Processo 84 , tempo desde o ultimo escalonamento 50
+Processo 87 , tempo desde o ultimo escalonamento 84
+Processo 85 , tempo desde o ultimo escalonamento 62
+Processo 88 , tempo desde o ultimo escalonamento 63
+Processo 83 , tempo desde o ultimo escalonamento 121
+Processo 77 , tempo desde o ultimo escalonamento 77
+Processo 84 , tempo desde o ultimo escalonamento 83
+Processo 87 , tempo desde o ultimo escalonamento 76
+Processo 85 , tempo desde o ultimo escalonamento 66
+Processo 88 , tempo desde o ultimo escalonamento 99
+Processo 83 , tempo desde o ultimo escalonamento 95
+Processo 77 , tempo desde o ultimo escalonamento 88
+Processo 85 , tempo desde o ultimo escalonamento 67
+Processo 89 , tempo desde o ultimo escalonamento 40
+Processo 77 , tempo desde o ultimo escalonamento 36
+Processo 88 , tempo desde o ultimo escalonamento 55
+Processo 85 , tempo desde o ultimo escalonamento 44
+Processo 89 , tempo desde o ultimo escalonamento 31
+Processo 77 , tempo desde o ultimo escalonamento 34
+Processo 88 , tempo desde o ultimo escalonamento 39
+Processo 85 , tempo desde o ultimo escalonamento 40
+Processo 90 , tempo desde o ultimo escalonamento 35
+Processo 77 , tempo desde o ultimo escalonamento 34
+Processo 88 , tempo desde o ultimo escalonamento 43
+Processo 90 , tempo desde o ultimo escalonamento 45
+Processo 77 , tempo desde o ultimo escalonamento 47
+Processo 88 , tempo desde o ultimo escalonamento 39
+Processo 90 , tempo desde o ultimo escalonamento 27
+Processo 83 , tempo desde o ultimo escalonamento 201
+Processo 88 , tempo desde o ultimo escalonamento 35
+Processo 90 , tempo desde o ultimo escalonamento 29
+Processo 83 , tempo desde o ultimo escalonamento 19
+Processo 84 , tempo desde o ultimo escalonamento 285
+Processo 88 , tempo desde o ultimo escalonamento 66
+Processo 90 , tempo desde o ultimo escalonamento 74
+Processo 83 , tempo desde o ultimo escalonamento 89
+Processo 84 , tempo desde o ultimo escalonamento 89
+Processo 88 , tempo desde o ultimo escalonamento 76
+Processo 90 , tempo desde o ultimo escalonamento 78
+Processo 83 , tempo desde o ultimo escalonamento 81
+Processo 84 , tempo desde o ultimo escalonamento 71
+Processo 88 , tempo desde o ultimo escalonamento 61
+Processo 90 , tempo desde o ultimo escalonamento 74
+Processo 83 , tempo desde o ultimo escalonamento 46
+Processo 84 , tempo desde o ultimo escalonamento 52
+Processo 88 , tempo desde o ultimo escalonamento 42
+Processo 83 , tempo desde o ultimo escalonamento 38
+Processo 83 , tempo desde o ultimo escalonamento 11
+Processo 84 , tempo desde o ultimo escalonamento 43
+Processo 86 , tempo desde o ultimo escalonamento 706
+Processo 84 , tempo desde o ultimo escalonamento 3
+Processo 86 , tempo desde o ultimo escalonamento 25
+Processo 84 , tempo desde o ultimo escalonamento 54
+Processo 84 , tempo desde o ultimo escalonamento 39
+Processo 84 , tempo desde o ultimo escalonamento 10
+Processo 88 , tempo desde o ultimo escalonamento 149
+Processo 84 , tempo desde o ultimo escalonamento 8
+Processo 87 , tempo desde o ultimo escalonamento 656
+Processo 88 , tempo desde o ultimo escalonamento 17
+Processo 84 , tempo desde o ultimo escalonamento 24
+Processo 87 , tempo desde o ultimo escalonamento 47
+Processo 84 , tempo desde o ultimo escalonamento 40
+Processo 91 , tempo desde o ultimo escalonamento 45
+Processo 87 , tempo desde o ultimo escalonamento 28
+Processo 92 , tempo desde o ultimo escalonamento 37
+Processo 84 , tempo desde o ultimo escalonamento 48
+Processo 88 , tempo desde o ultimo escalonamento 106
+Processo 93 , tempo desde o ultimo escalonamento 47
+Processo 92 , tempo desde o ultimo escalonamento 52
+Processo 84 , tempo desde o ultimo escalonamento 44
+Processo 88 , tempo desde o ultimo escalonamento 52
+Processo 93 , tempo desde o ultimo escalonamento 56
+Processo 87 , tempo desde o ultimo escalonamento 107
+Processo 92 , tempo desde o ultimo escalonamento 49
+Processo 91 , tempo desde o ultimo escalonamento 133
+Processo 84 , tempo desde o ultimo escalonamento 49
+Processo 93 , tempo desde o ultimo escalonamento 26
+Processo 92 , tempo desde o ultimo escalonamento 23
+Processo 91 , tempo desde o ultimo escalonamento 39
+Processo 84 , tempo desde o ultimo escalonamento 40
+Processo 93 , tempo desde o ultimo escalonamento 49
+Processo 95 , tempo desde o ultimo escalonamento 26
+Processo 84 , tempo desde o ultimo escalonamento 16
+Processo 93 , tempo desde o ultimo escalonamento 21
+Processo 84 , tempo desde o ultimo escalonamento 18
+Processo 93 , tempo desde o ultimo escalonamento 7
+Processo 84 , tempo desde o ultimo escalonamento 16
+Processo 93 , tempo desde o ultimo escalonamento 13
+Processo 84 , tempo desde o ultimo escalonamento 15
+Processo 93 , tempo desde o ultimo escalonamento 37
+Processo 84 , tempo desde o ultimo escalonamento 35
+Processo 93 , tempo desde o ultimo escalonamento 45
+Processo 84 , tempo desde o ultimo escalonamento 66
+Processo 93 , tempo desde o ultimo escalonamento 38
+Processo 84 , tempo desde o ultimo escalonamento 18
+Processo 93 , tempo desde o ultimo escalonamento 36
+Processo 84 , tempo desde o ultimo escalonamento 48
+Processo 93 , tempo desde o ultimo escalonamento 58
+Processo 93 , tempo desde o ultimo escalonamento 33
+Processo 93 , tempo desde o ultimo escalonamento 0
+Processo 93 , tempo desde o ultimo escalonamento 11
+Processo 93 , tempo desde o ultimo escalonamento 13
+Processo 87 , tempo desde o ultimo escalonamento 398
+Processo 93 , tempo desde o ultimo escalonamento 51
+Processo 94 , tempo desde o ultimo escalonamento 484
+Processo 87 , tempo desde o ultimo escalonamento 59
+Processo 94 , tempo desde o ultimo escalonamento 25
+Processo 92 , tempo desde o ultimo escalonamento 431
+Processo 95 , tempo desde o ultimo escalonamento 395
+Processo 94 , tempo desde o ultimo escalonamento 25
+Processo 92 , tempo desde o ultimo escalonamento 37
+Processo 95 , tempo desde o ultimo escalonamento 33
+Processo 94 , tempo desde o ultimo escalonamento 19
+Processo 92 , tempo desde o ultimo escalonamento 16
+Processo 95 , tempo desde o ultimo escalonamento 32
+Processo 94 , tempo desde o ultimo escalonamento 32
+Processo 92 , tempo desde o ultimo escalonamento 33
+Processo 95 , tempo desde o ultimo escalonamento 35
+Processo 94 , tempo desde o ultimo escalonamento 42
+Processo 92 , tempo desde o ultimo escalonamento 44
+Processo 96 , tempo desde o ultimo escalonamento 45
+Processo 95 , tempo desde o ultimo escalonamento 37
+Processo 97 , tempo desde o ultimo escalonamento 78
+Processo 96 , tempo desde o ultimo escalonamento 94
+Processo 95 , tempo desde o ultimo escalonamento 93
+Processo 98 , tempo desde o ultimo escalonamento 102
+Processo 97 , tempo desde o ultimo escalonamento 93
+Processo 95 , tempo desde o ultimo escalonamento 57
+Processo 95 , tempo desde o ultimo escalonamento 46
+Processo 95 , tempo desde o ultimo escalonamento 3
+Processo 95 , tempo desde o ultimo escalonamento 7
+Processo 95 , tempo desde o ultimo escalonamento 11
+Processo 95 , tempo desde o ultimo escalonamento 26
+Processo 96 , tempo desde o ultimo escalonamento 172
+Processo 95 , tempo desde o ultimo escalonamento 27
+Processo 94 , tempo desde o ultimo escalonamento 311
+Processo 87 , tempo desde o ultimo escalonamento 448
+Processo 87 , tempo desde o ultimo escalonamento 16
+Processo 97 , tempo desde o ultimo escalonamento 177
+Processo 97 , tempo desde o ultimo escalonamento 15
+Processo 91 , tempo desde o ultimo escalonamento 894
+Processo 97 , tempo desde o ultimo escalonamento 6
+Processo 91 , tempo desde o ultimo escalonamento 23
+Processo 97 , tempo desde o ultimo escalonamento 29
+Processo 91 , tempo desde o ultimo escalonamento 22
+Processo 97 , tempo desde o ultimo escalonamento 22
+Processo 91 , tempo desde o ultimo escalonamento 60
+Processo 97 , tempo desde o ultimo escalonamento 54
+Processo 91 , tempo desde o ultimo escalonamento 40
+Processo 97 , tempo desde o ultimo escalonamento 41
+Processo 91 , tempo desde o ultimo escalonamento 6
+Processo 99 , tempo desde o ultimo escalonamento 148
+Processo 99 , tempo desde o ultimo escalonamento 5
+Processo 97 , tempo desde o ultimo escalonamento 27
+Processo 99 , tempo desde o ultimo escalonamento 25
+Processo 99 , tempo desde o ultimo escalonamento 16
+Processo 99 , tempo desde o ultimo escalonamento 14
+Processo 99 , tempo desde o ultimo escalonamento 10
+Processo 99 , tempo desde o ultimo escalonamento 10
+Processo 99 , tempo desde o ultimo escalonamento 13
+Processo 99 , tempo desde o ultimo escalonamento 13
+Processo 99 , tempo desde o ultimo escalonamento 6
+Processo 91 , tempo desde o ultimo escalonamento 151
+Processo 101 , tempo desde o ultimo escalonamento 50
+Processo 91 , tempo desde o ultimo escalonamento 51
+Processo 101 , tempo desde o ultimo escalonamento 5
+Processo 91 , tempo desde o ultimo escalonamento 18
+Processo 91 , tempo desde o ultimo escalonamento 11
+Processo 99 , tempo desde o ultimo escalonamento 125
+Processo 91 , tempo desde o ultimo escalonamento 17
+Processo 99 , tempo desde o ultimo escalonamento 5
+Processo 91 , tempo desde o ultimo escalonamento 5
+Processo 91 , tempo desde o ultimo escalonamento 15
+Processo 99 , tempo desde o ultimo escalonamento 31
+Processo 91 , tempo desde o ultimo escalonamento 18
+Processo 91 , tempo desde o ultimo escalonamento 10
+Processo 91 , tempo desde o ultimo escalonamento 41
+Processo 102 , tempo desde o ultimo escalonamento 80
+Processo 91 , tempo desde o ultimo escalonamento 20
+Processo 102 , tempo desde o ultimo escalonamento 18
+Processo 91 , tempo desde o ultimo escalonamento 16
+Processo 102 , tempo desde o ultimo escalonamento 20
+Processo 99 , tempo desde o ultimo escalonamento 110
+Processo 103 , tempo desde o ultimo escalonamento 59
+Processo 91 , tempo desde o ultimo escalonamento 81
+Processo 102 , tempo desde o ultimo escalonamento 89
+Processo 99 , tempo desde o ultimo escalonamento 80
+Processo 103 , tempo desde o ultimo escalonamento 63
+Processo 91 , tempo desde o ultimo escalonamento 40
+Processo 99 , tempo desde o ultimo escalonamento 39
+Processo 102 , tempo desde o ultimo escalonamento 43
+Processo 103 , tempo desde o ultimo escalonamento 39
+Processo 104 , tempo desde o ultimo escalonamento 42
+Processo 102 , tempo desde o ultimo escalonamento 41
+Processo 105 , tempo desde o ultimo escalonamento 35
+Processo 104 , tempo desde o ultimo escalonamento 43
+Processo 102 , tempo desde o ultimo escalonamento 53
+Processo 105 , tempo desde o ultimo escalonamento 60
+Processo 104 , tempo desde o ultimo escalonamento 83
+Processo 91 , tempo desde o ultimo escalonamento 174
+Processo 102 , tempo desde o ultimo escalonamento 63
+Processo 105 , tempo desde o ultimo escalonamento 57
+Processo 104 , tempo desde o ultimo escalonamento 25
+Processo 92 , tempo desde o ultimo escalonamento 1202
+Processo 91 , tempo desde o ultimo escalonamento 33
+Processo 104 , tempo desde o ultimo escalonamento 26
+Processo 104 , tempo desde o ultimo escalonamento 16
+Processo 104 , tempo desde o ultimo escalonamento 7
+Processo 105 , tempo desde o ultimo escalonamento 58
+Processo 105 , tempo desde o ultimo escalonamento 1
+Processo 104 , tempo desde o ultimo escalonamento 13
+Processo 105 , tempo desde o ultimo escalonamento 17
+Processo 105 , tempo desde o ultimo escalonamento 7
+Processo 105 , tempo desde o ultimo escalonamento 21
+Processo 105 , tempo desde o ultimo escalonamento 9
+Processo 105 , tempo desde o ultimo escalonamento 6
+Processo 105 , tempo desde o ultimo escalonamento 19
+Processo 105 , tempo desde o ultimo escalonamento 8
+Processo 104 , tempo desde o ultimo escalonamento 81
+Processo 105 , tempo desde o ultimo escalonamento 19
+Processo 104 , tempo desde o ultimo escalonamento 61
+Processo 107 , tempo desde o ultimo escalonamento 19
+Processo 104 , tempo desde o ultimo escalonamento 13
+Processo 107 , tempo desde o ultimo escalonamento 18
+Processo 105 , tempo desde o ultimo escalonamento 87
+Processo 104 , tempo desde o ultimo escalonamento 59
+Processo 107 , tempo desde o ultimo escalonamento 60
+Processo 105 , tempo desde o ultimo escalonamento 75
+Processo 104 , tempo desde o ultimo escalonamento 48
+Processo 108 , tempo desde o ultimo escalonamento 43
+Processo 105 , tempo desde o ultimo escalonamento 50
+Processo 104 , tempo desde o ultimo escalonamento 69
+Processo 108 , tempo desde o ultimo escalonamento 47
+Processo 109 , tempo desde o ultimo escalonamento 44
+Processo 105 , tempo desde o ultimo escalonamento 45
+Processo 108 , tempo desde o ultimo escalonamento 39
+Processo 109 , tempo desde o ultimo escalonamento 43
+Processo 108 , tempo desde o ultimo escalonamento 25
+Processo 109 , tempo desde o ultimo escalonamento 29
+Processo 108 , tempo desde o ultimo escalonamento 27
+Processo 109 , tempo desde o ultimo escalonamento 28
+Processo 105 , tempo desde o ultimo escalonamento 94
+Processo 108 , tempo desde o ultimo escalonamento 25
+Processo 105 , tempo desde o ultimo escalonamento 33
+Processo 108 , tempo desde o ultimo escalonamento 73
+Processo 108 , tempo desde o ultimo escalonamento 10
+Processo 105 , tempo desde o ultimo escalonamento 57
+Processo 106 , tempo desde o ultimo escalonamento 592
+Processo 105 , tempo desde o ultimo escalonamento 32
+Processo 106 , tempo desde o ultimo escalonamento 31
+Processo 105 , tempo desde o ultimo escalonamento 23
+Processo 106 , tempo desde o ultimo escalonamento 34
+Processo 109 , tempo desde o ultimo escalonamento 182
+Processo 110 , tempo desde o ultimo escalonamento 44
+Processo 105 , tempo desde o ultimo escalonamento 49
+Processo 111 , tempo desde o ultimo escalonamento 59
+Processo 106 , tempo desde o ultimo escalonamento 56
+Processo 109 , tempo desde o ultimo escalonamento 61
+Processo 110 , tempo desde o ultimo escalonamento 71
+Processo 105 , tempo desde o ultimo escalonamento 83
+Processo 111 , tempo desde o ultimo escalonamento 68
+Processo 109 , tempo desde o ultimo escalonamento 49
+Processo 110 , tempo desde o ultimo escalonamento 47
+Processo 105 , tempo desde o ultimo escalonamento 35
+Processo 111 , tempo desde o ultimo escalonamento 38
+Processo 109 , tempo desde o ultimo escalonamento 44
+Processo 110 , tempo desde o ultimo escalonamento 39
+Processo 105 , tempo desde o ultimo escalonamento 33
+Processo 111 , tempo desde o ultimo escalonamento 41
+Processo 109 , tempo desde o ultimo escalonamento 41
+Processo 110 , tempo desde o ultimo escalonamento 43
+Processo 105 , tempo desde o ultimo escalonamento 66
+Processo 111 , tempo desde o ultimo escalonamento 72
+Processo 109 , tempo desde o ultimo escalonamento 64
+Processo 112 , tempo desde o ultimo escalonamento 77
+Processo 110 , tempo desde o ultimo escalonamento 81
+Processo 105 , tempo desde o ultimo escalonamento 61
+Processo 109 , tempo desde o ultimo escalonamento 38
+Processo 112 , tempo desde o ultimo escalonamento 23
+Processo 111 , tempo desde o ultimo escalonamento 59
+Processo 109 , tempo desde o ultimo escalonamento 19
+Processo 112 , tempo desde o ultimo escalonamento 26
+Processo 106 , tempo desde o ultimo escalonamento 288
+Processo 111 , tempo desde o ultimo escalonamento 33
+Processo 112 , tempo desde o ultimo escalonamento 29
+Processo 106 , tempo desde o ultimo escalonamento 27
+Processo 112 , tempo desde o ultimo escalonamento 10
+Processo 112 , tempo desde o ultimo escalonamento 10
+Processo 112 , tempo desde o ultimo escalonamento 25
+Processo 112 , tempo desde o ultimo escalonamento 5
+Processo 108 , tempo desde o ultimo escalonamento 505
+Processo 112 , tempo desde o ultimo escalonamento 19
+Processo 108 , tempo desde o ultimo escalonamento 11
+Processo 112 , tempo desde o ultimo escalonamento 21
+Processo 108 , tempo desde o ultimo escalonamento 21
+Processo 113 , tempo desde o ultimo escalonamento 17
+Processo 112 , tempo desde o ultimo escalonamento 20
+Processo 108 , tempo desde o ultimo escalonamento 74
+Processo 113 , tempo desde o ultimo escalonamento 71
+Processo 111 , tempo desde o ultimo escalonamento 185
+Processo 114 , tempo desde o ultimo escalonamento 86
+Processo 112 , tempo desde o ultimo escalonamento 87
+Processo 113 , tempo desde o ultimo escalonamento 29
+Processo 111 , tempo desde o ultimo escalonamento 46
+Processo 114 , tempo desde o ultimo escalonamento 43
+Processo 113 , tempo desde o ultimo escalonamento 38
+Processo 111 , tempo desde o ultimo escalonamento 31
+Processo 114 , tempo desde o ultimo escalonamento 30
+Processo 111 , tempo desde o ultimo escalonamento 24
+Processo 115 , tempo desde o ultimo escalonamento 30
+Processo 114 , tempo desde o ultimo escalonamento 38
+Processo 111 , tempo desde o ultimo escalonamento 25
+Processo 115 , tempo desde o ultimo escalonamento 29
+Processo 114 , tempo desde o ultimo escalonamento 17
+Processo 113 , tempo desde o ultimo escalonamento 84
+Processo 111 , tempo desde o ultimo escalonamento 25
+Processo 113 , tempo desde o ultimo escalonamento 23
+Processo 111 , tempo desde o ultimo escalonamento 27
+Processo 113 , tempo desde o ultimo escalonamento 21
+Processo 112 , tempo desde o ultimo escalonamento 181
+Processo 111 , tempo desde o ultimo escalonamento 23
+Processo 111 , tempo desde o ultimo escalonamento 30
+Processo 111 , tempo desde o ultimo escalonamento 27
+Processo 111 , tempo desde o ultimo escalonamento 24
+Processo 116 , tempo desde o ultimo escalonamento 11
+Processo 105 , tempo desde o ultimo escalonamento 538
+Processo 111 , tempo desde o ultimo escalonamento 92
+Processo 116 , tempo desde o ultimo escalonamento 91
+Processo 105 , tempo desde o ultimo escalonamento 92
+Processo 112 , tempo desde o ultimo escalonamento 198
+Processo 111 , tempo desde o ultimo escalonamento 44
+Processo 116 , tempo desde o ultimo escalonamento 37
+Processo 105 , tempo desde o ultimo escalonamento 26
+Processo 112 , tempo desde o ultimo escalonamento 38
+Processo 111 , tempo desde o ultimo escalonamento 23
+Processo 105 , tempo desde o ultimo escalonamento 26
+Processo 111 , tempo desde o ultimo escalonamento 37
+Processo 117 , tempo desde o ultimo escalonamento 23
+Processo 111 , tempo desde o ultimo escalonamento 21
+Processo 117 , tempo desde o ultimo escalonamento 36
+Processo 111 , tempo desde o ultimo escalonamento 38
+Processo 117 , tempo desde o ultimo escalonamento 20
+Processo 113 , tempo desde o ultimo escalonamento 379
+Processo 111 , tempo desde o ultimo escalonamento 43
+Processo 117 , tempo desde o ultimo escalonamento 45
+Processo 113 , tempo desde o ultimo escalonamento 25
+Processo 111 , tempo desde o ultimo escalonamento 16
+Processo 117 , tempo desde o ultimo escalonamento 8
+Processo 111 , tempo desde o ultimo escalonamento 7
+Processo 117 , tempo desde o ultimo escalonamento 7
+Processo 111 , tempo desde o ultimo escalonamento 37
+Processo 117 , tempo desde o ultimo escalonamento 41
+Processo 119 , tempo desde o ultimo escalonamento 31
+Processo 117 , tempo desde o ultimo escalonamento 12
+Processo 119 , tempo desde o ultimo escalonamento 8
+Processo 117 , tempo desde o ultimo escalonamento 36
+Processo 119 , tempo desde o ultimo escalonamento 50
+Processo 117 , tempo desde o ultimo escalonamento 36
+Processo 119 , tempo desde o ultimo escalonamento 28
+Processo 117 , tempo desde o ultimo escalonamento 26
+Processo 119 , tempo desde o ultimo escalonamento 13
+Processo 117 , tempo desde o ultimo escalonamento 20
+Processo 118 , tempo desde o ultimo escalonamento 179
+Processo 119 , tempo desde o ultimo escalonamento 40
+Processo 106 , tempo desde o ultimo escalonamento 977
+Processo 117 , tempo desde o ultimo escalonamento 47
+Processo 118 , tempo desde o ultimo escalonamento 46
+Processo 119 , tempo desde o ultimo escalonamento 44
+Processo 106 , tempo desde o ultimo escalonamento 35
+Processo 117 , tempo desde o ultimo escalonamento 46
+Processo 118 , tempo desde o ultimo escalonamento 69
+Processo 106 , tempo desde o ultimo escalonamento 52
+Processo 117 , tempo desde o ultimo escalonamento 27
+Processo 118 , tempo desde o ultimo escalonamento 25
+Processo 106 , tempo desde o ultimo escalonamento 29
+Processo 117 , tempo desde o ultimo escalonamento 34
+Processo 121 , tempo desde o ultimo escalonamento 20
+Processo 106 , tempo desde o ultimo escalonamento 20
+Processo 121 , tempo desde o ultimo escalonamento 52
+Processo 106 , tempo desde o ultimo escalonamento 48
+Processo 106 , tempo desde o ultimo escalonamento 18
+Processo 105 , tempo desde o ultimo escalonamento 565
+Processo 111 , tempo desde o ultimo escalonamento 373
+Processo 111 , tempo desde o ultimo escalonamento 7
+Processo 111 , tempo desde o ultimo escalonamento 18
+Processo 111 , tempo desde o ultimo escalonamento 28
+Processo 122 , tempo desde o ultimo escalonamento 20
+Processo 121 , tempo desde o ultimo escalonamento 90
+Processo 111 , tempo desde o ultimo escalonamento 19
+Processo 122 , tempo desde o ultimo escalonamento 18
+Processo 121 , tempo desde o ultimo escalonamento 18
+Processo 111 , tempo desde o ultimo escalonamento 8
+Processo 120 , tempo desde o ultimo escalonamento 243
+Processo 122 , tempo desde o ultimo escalonamento 40
+Processo 111 , tempo desde o ultimo escalonamento 47
+Processo 120 , tempo desde o ultimo escalonamento 52
+Processo 114 , tempo desde o ultimo escalonamento 1019
+Processo 122 , tempo desde o ultimo escalonamento 43
+Processo 120 , tempo desde o ultimo escalonamento 24
+Processo 114 , tempo desde o ultimo escalonamento 20
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                                                               ::
+::                  Snapshot at clock :  20000                   ::
+::                                                               ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+              S I M C O R E   W A I T I N G   Q U E U E 
+*****************************************************************************
+* Event   PCB   IORB   File                  RRB    Rsrc   PRRB  SocketName *
+*---------------------------------------------------------------------------*
+*   604   118   none   none                 none    none   none  none       *
+*   605   106    336   wooFoobar            none    none   none  none       *
+*   611   111   none   none                 none    none    125  games      *
+*****************************************************************************
+
+
+
+                       S I M C O R E   P C B   T A B L E 
+*****************************************************************************
+*  PCB  Size  Created  Last dispatch  Last burst  Accum CPU  Status   Prior *
+*---------------------------------------------------------------------------*
+*  120  7218    19640          19996           1         30  ready        0 *
+*  106  3484    17600          19825           1        135  waiting      0 *
+*  122  5902    19866          19987           1         25  ready        0 *
+*  114  1514    18730          19997          10         33  running      0 *
+*  111  5782    18247          19957          15        267  waiting      0 *
+*  118  5086    19414          19734           5         29  waiting      0 *
+*  123  2135    19997             -1           0          0  ready        0 *
+*****************************************************************************
+
+
+
+=====================  Summary of Statistics  ====================
+
+Total num of processes created                            =   124
+  Total num of processes terminated                             =  102
+  Total num of processes killed                                 =   15
+        num of processes in CPU ready queue                     =    3
+        num of processes in event waiting queues                =    3
+
+  Total num of wait requests                               =  135
+  Total num of signals                                     =  366
+  Total num of timer interrupts                            =  120
+
+CPU time used                                        = 10278
+CPU utilization                                      =     0.5139
+
+Memory utilization                                   =     0.5329
+
+System throughput ( x 1000 )                         =     5.1000
+Average num of processes during simulation           =     4.8562
+Average CPU time per process                         =    90.3710
+Average waiting time per process                     =   697.4435
+Average turnaround time per process                  =   783.2581
+
+
+
+
+Processo 122 , tempo desde o ultimo escalonamento 16
+Processo 120 , tempo desde o ultimo escalonamento 38
+Processo 122 , tempo desde o ultimo escalonamento 41
+Processo 123 , tempo desde o ultimo escalonamento 49
+Processo 120 , tempo desde o ultimo escalonamento 59
+Processo 118 , tempo desde o ultimo escalonamento 368
+Processo 122 , tempo desde o ultimo escalonamento 60
+Processo 123 , tempo desde o ultimo escalonamento 43
+Processo 118 , tempo desde o ultimo escalonamento 27
+Processo 122 , tempo desde o ultimo escalonamento 27
+Processo 123 , tempo desde o ultimo escalonamento 33
+Processo 118 , tempo desde o ultimo escalonamento 22
+Processo 122 , tempo desde o ultimo escalonamento 29
+Processo 123 , tempo desde o ultimo escalonamento 19
+Processo 118 , tempo desde o ultimo escalonamento 35
+Processo 111 , tempo desde o ultimo escalonamento 251
+Processo 122 , tempo desde o ultimo escalonamento 53
+Processo 123 , tempo desde o ultimo escalonamento 54
+Processo 118 , tempo desde o ultimo escalonamento 42
+Processo 111 , tempo desde o ultimo escalonamento 42
+Processo 122 , tempo desde o ultimo escalonamento 37
+Processo 124 , tempo desde o ultimo escalonamento 64
+Processo 118 , tempo desde o ultimo escalonamento 64
+Processo 106 , tempo desde o ultimo escalonamento 472
+Processo 125 , tempo desde o ultimo escalonamento 57
+Processo 111 , tempo desde o ultimo escalonamento 62
+Processo 122 , tempo desde o ultimo escalonamento 67
+Processo 126 , tempo desde o ultimo escalonamento 55
+Processo 124 , tempo desde o ultimo escalonamento 54
+Processo 118 , tempo desde o ultimo escalonamento 86
+Processo 106 , tempo desde o ultimo escalonamento 88
+Processo 125 , tempo desde o ultimo escalonamento 98
+Processo 122 , tempo desde o ultimo escalonamento 94
+Processo 126 , tempo desde o ultimo escalonamento 100
+Processo 124 , tempo desde o ultimo escalonamento 109
+Processo 127 , tempo desde o ultimo escalonamento 99
+Processo 118 , tempo desde o ultimo escalonamento 90
+Processo 106 , tempo desde o ultimo escalonamento 90
+Processo 125 , tempo desde o ultimo escalonamento 81
+Processo 122 , tempo desde o ultimo escalonamento 77
+Processo 126 , tempo desde o ultimo escalonamento 63
+Processo 127 , tempo desde o ultimo escalonamento 49
+Processo 125 , tempo desde o ultimo escalonamento 34
+Processo 111 , tempo desde o ultimo escalonamento 211
+Processo 122 , tempo desde o ultimo escalonamento 61
+Processo 126 , tempo desde o ultimo escalonamento 68
+Processo 127 , tempo desde o ultimo escalonamento 61
+Processo 123 , tempo desde o ultimo escalonamento 362
+Processo 125 , tempo desde o ultimo escalonamento 70
+Processo 124 , tempo desde o ultimo escalonamento 140
+Processo 111 , tempo desde o ultimo escalonamento 70
+Processo 126 , tempo desde o ultimo escalonamento 45
+Processo 127 , tempo desde o ultimo escalonamento 47
+Processo 123 , tempo desde o ultimo escalonamento 40
+Processo 125 , tempo desde o ultimo escalonamento 43
+Processo 124 , tempo desde o ultimo escalonamento 53
+Processo 111 , tempo desde o ultimo escalonamento 62
+Processo 127 , tempo desde o ultimo escalonamento 48
+Processo 128 , tempo desde o ultimo escalonamento 38
+Processo 124 , tempo desde o ultimo escalonamento 39
+Processo 111 , tempo desde o ultimo escalonamento 58
+Processo 128 , tempo desde o ultimo escalonamento 52
+Processo 124 , tempo desde o ultimo escalonamento 46
+Processo 128 , tempo desde o ultimo escalonamento 11
+Processo 124 , tempo desde o ultimo escalonamento 15
+Processo 128 , tempo desde o ultimo escalonamento 18
+Processo 124 , tempo desde o ultimo escalonamento 16
+Processo 128 , tempo desde o ultimo escalonamento 41
+Processo 120 , tempo desde o ultimo escalonamento 703
+Processo 124 , tempo desde o ultimo escalonamento 45
+Processo 118 , tempo desde o ultimo escalonamento 352
+Processo 128 , tempo desde o ultimo escalonamento 64
+Processo 124 , tempo desde o ultimo escalonamento 52
+Processo 118 , tempo desde o ultimo escalonamento 55
+Processo 128 , tempo desde o ultimo escalonamento 30
+Processo 124 , tempo desde o ultimo escalonamento 31
+Processo 120 , tempo desde o ultimo escalonamento 108
+Processo 118 , tempo desde o ultimo escalonamento 38
+Processo 128 , tempo desde o ultimo escalonamento 62
+Processo 124 , tempo desde o ultimo escalonamento 60
+Processo 118 , tempo desde o ultimo escalonamento 46
+Processo 124 , tempo desde o ultimo escalonamento 36
+Processo 124 , tempo desde o ultimo escalonamento 9
+Processo 124 , tempo desde o ultimo escalonamento 3
+Processo 124 , tempo desde o ultimo escalonamento 13
+Processo 124 , tempo desde o ultimo escalonamento 7
+Processo 127 , tempo desde o ultimo escalonamento 364
+Processo 127 , tempo desde o ultimo escalonamento 0
+Processo 127 , tempo desde o ultimo escalonamento 19
+Processo 125 , tempo desde o ultimo escalonamento 430
+Processo 127 , tempo desde o ultimo escalonamento 31
+Processo 125 , tempo desde o ultimo escalonamento 36
+Processo 127 , tempo desde o ultimo escalonamento 37
+Processo 125 , tempo desde o ultimo escalonamento 32
+Processo 125 , tempo desde o ultimo escalonamento 10
+Processo 128 , tempo desde o ultimo escalonamento 213
+Processo 127 , tempo desde o ultimo escalonamento 60
+Processo 128 , tempo desde o ultimo escalonamento 13
+Processo 127 , tempo desde o ultimo escalonamento 21
+Processo 128 , tempo desde o ultimo escalonamento 45
+Processo 128 , tempo desde o ultimo escalonamento 16
+Processo 128 , tempo desde o ultimo escalonamento 39
+Processo 128 , tempo desde o ultimo escalonamento 42
+Processo 129 , tempo desde o ultimo escalonamento 17
+Processo 128 , tempo desde o ultimo escalonamento 19
+Processo 129 , tempo desde o ultimo escalonamento 22
+Processo 128 , tempo desde o ultimo escalonamento 46
+Processo 129 , tempo desde o ultimo escalonamento 41
+Processo 120 , tempo desde o ultimo escalonamento 511
+Processo 129 , tempo desde o ultimo escalonamento 71
+Processo 120 , tempo desde o ultimo escalonamento 52
+Processo 129 , tempo desde o ultimo escalonamento 29
+Processo 120 , tempo desde o ultimo escalonamento 31
+Processo 129 , tempo desde o ultimo escalonamento 23
+Processo 120 , tempo desde o ultimo escalonamento 37
+Processo 129 , tempo desde o ultimo escalonamento 65
+Processo 130 , tempo desde o ultimo escalonamento 46
+Processo 120 , tempo desde o ultimo escalonamento 41
+Processo 130 , tempo desde o ultimo escalonamento 10
+Processo 122 , tempo desde o ultimo escalonamento 1048
+Processo 122 , tempo desde o ultimo escalonamento 10
+Processo 122 , tempo desde o ultimo escalonamento 15
+Processo 122 , tempo desde o ultimo escalonamento 20
+Processo 122 , tempo desde o ultimo escalonamento 8
+Processo 127 , tempo desde o ultimo escalonamento 483
+Processo 127 , tempo desde o ultimo escalonamento 3
+Processo 127 , tempo desde o ultimo escalonamento 35
+Processo 122 , tempo desde o ultimo escalonamento 63
+Processo 127 , tempo desde o ultimo escalonamento 13
+Processo 122 , tempo desde o ultimo escalonamento 63
+Processo 127 , tempo desde o ultimo escalonamento 65
+Processo 131 , tempo desde o ultimo escalonamento 48
+Processo 122 , tempo desde o ultimo escalonamento 46
+Processo 127 , tempo desde o ultimo escalonamento 90
+Processo 131 , tempo desde o ultimo escalonamento 68
+Processo 122 , tempo desde o ultimo escalonamento 59
+Processo 127 , tempo desde o ultimo escalonamento 58
+Processo 131 , tempo desde o ultimo escalonamento 61
+Processo 122 , tempo desde o ultimo escalonamento 61
+Processo 132 , tempo desde o ultimo escalonamento 60
+Processo 122 , tempo desde o ultimo escalonamento 40
+Processo 133 , tempo desde o ultimo escalonamento 31
+Processo 132 , tempo desde o ultimo escalonamento 18
+Processo 122 , tempo desde o ultimo escalonamento 55
+Processo 133 , tempo desde o ultimo escalonamento 66
+Processo 132 , tempo desde o ultimo escalonamento 65
+Processo 122 , tempo desde o ultimo escalonamento 32
+Processo 134 , tempo desde o ultimo escalonamento 26
+Processo 127 , tempo desde o ultimo escalonamento 143
+Processo 133 , tempo desde o ultimo escalonamento 69
+Processo 132 , tempo desde o ultimo escalonamento 88
+Processo 135 , tempo desde o ultimo escalonamento 94
+Processo 131 , tempo desde o ultimo escalonamento 237
+Processo 134 , tempo desde o ultimo escalonamento 120
+Processo 127 , tempo desde o ultimo escalonamento 123
+Processo 136 , tempo desde o ultimo escalonamento 69
+Processo 135 , tempo desde o ultimo escalonamento 67
+Processo 131 , tempo desde o ultimo escalonamento 66
+Processo 133 , tempo desde o ultimo escalonamento 123
+Processo 134 , tempo desde o ultimo escalonamento 68
+Processo 122 , tempo desde o ultimo escalonamento 207
+Processo 127 , tempo desde o ultimo escalonamento 119
+Processo 135 , tempo desde o ultimo escalonamento 92
+Processo 131 , tempo desde o ultimo escalonamento 83
+Processo 134 , tempo desde o ultimo escalonamento 72
+Processo 122 , tempo desde o ultimo escalonamento 70
+Processo 127 , tempo desde o ultimo escalonamento 94
+Processo 134 , tempo desde o ultimo escalonamento 81
+Processo 135 , tempo desde o ultimo escalonamento 94
+Processo 122 , tempo desde o ultimo escalonamento 76
+Processo 135 , tempo desde o ultimo escalonamento 25
+Processo 135 , tempo desde o ultimo escalonamento 11
+Processo 135 , tempo desde o ultimo escalonamento 6
+Processo 135 , tempo desde o ultimo escalonamento 0
+Processo 131 , tempo desde o ultimo escalonamento 140
+Processo 136 , tempo desde o ultimo escalonamento 255
+Processo 137 , tempo desde o ultimo escalonamento 116
+Processo 135 , tempo desde o ultimo escalonamento 68
+Processo 136 , tempo desde o ultimo escalonamento 50
+Processo 137 , tempo desde o ultimo escalonamento 27
+Processo 136 , tempo desde o ultimo escalonamento 32
+Processo 137 , tempo desde o ultimo escalonamento 41
+Processo 136 , tempo desde o ultimo escalonamento 32
+Processo 137 , tempo desde o ultimo escalonamento 27
+Processo 136 , tempo desde o ultimo escalonamento 27
+Processo 137 , tempo desde o ultimo escalonamento 22
+Processo 130 , tempo desde o ultimo escalonamento 1052
+Processo 136 , tempo desde o ultimo escalonamento 19
+Processo 130 , tempo desde o ultimo escalonamento 27
+Processo 136 , tempo desde o ultimo escalonamento 25
+Processo 136 , tempo desde o ultimo escalonamento 14
+Processo 136 , tempo desde o ultimo escalonamento 14
+Processo 136 , tempo desde o ultimo escalonamento 38
+Processo 136 , tempo desde o ultimo escalonamento 12
+Processo 136 , tempo desde o ultimo escalonamento 9
+Processo 133 , tempo desde o ultimo escalonamento 517
+Processo 137 , tempo desde o ultimo escalonamento 132
+Processo 133 , tempo desde o ultimo escalonamento 32
+Processo 137 , tempo desde o ultimo escalonamento 31
+Processo 136 , tempo desde o ultimo escalonamento 69
+Processo 133 , tempo desde o ultimo escalonamento 33
+Processo 137 , tempo desde o ultimo escalonamento 33
+Processo 135 , tempo desde o ultimo escalonamento 316
+Processo 133 , tempo desde o ultimo escalonamento 40
+Processo 137 , tempo desde o ultimo escalonamento 50
+Processo 135 , tempo desde o ultimo escalonamento 44
+Processo 133 , tempo desde o ultimo escalonamento 29
+Processo 137 , tempo desde o ultimo escalonamento 42
+Processo 135 , tempo desde o ultimo escalonamento 33
+Processo 137 , tempo desde o ultimo escalonamento 6
+Processo 136 , tempo desde o ultimo escalonamento 108
+Processo 135 , tempo desde o ultimo escalonamento 39
+Processo 136 , tempo desde o ultimo escalonamento 46
+Processo 135 , tempo desde o ultimo escalonamento 22
+Processo 136 , tempo desde o ultimo escalonamento 25
+Processo 135 , tempo desde o ultimo escalonamento 23
+Processo 137 , tempo desde o ultimo escalonamento 137
+Processo 135 , tempo desde o ultimo escalonamento 75
+Processo 137 , tempo desde o ultimo escalonamento 21
+Processo 135 , tempo desde o ultimo escalonamento 16
+Processo 137 , tempo desde o ultimo escalonamento 13
+Processo 135 , tempo desde o ultimo escalonamento 30
+Processo 137 , tempo desde o ultimo escalonamento 43
+Processo 138 , tempo desde o ultimo escalonamento 24
+Processo 135 , tempo desde o ultimo escalonamento 38
+Processo 138 , tempo desde o ultimo escalonamento 26
+Processo 139 , tempo desde o ultimo escalonamento 28
+Processo 138 , tempo desde o ultimo escalonamento 20
+Processo 135 , tempo desde o ultimo escalonamento 46
+Processo 139 , tempo desde o ultimo escalonamento 49
+Processo 138 , tempo desde o ultimo escalonamento 43
+Processo 135 , tempo desde o ultimo escalonamento 22
+Processo 139 , tempo desde o ultimo escalonamento 16
+Processo 138 , tempo desde o ultimo escalonamento 14
+Processo 139 , tempo desde o ultimo escalonamento 10
+Processo 138 , tempo desde o ultimo escalonamento 12
+Processo 138 , tempo desde o ultimo escalonamento 18
+Processo 138 , tempo desde o ultimo escalonamento 14
+Processo 140 , tempo desde o ultimo escalonamento 10
+Processo 138 , tempo desde o ultimo escalonamento 16
+Processo 140 , tempo desde o ultimo escalonamento 26
+Processo 141 , tempo desde o ultimo escalonamento 73
+Processo 138 , tempo desde o ultimo escalonamento 70
+Processo 140 , tempo desde o ultimo escalonamento 62
+Processo 142 , tempo desde o ultimo escalonamento 30
+Processo 141 , tempo desde o ultimo escalonamento 44
+Processo 138 , tempo desde o ultimo escalonamento 44
+Processo 140 , tempo desde o ultimo escalonamento 68
+Processo 136 , tempo desde o ultimo escalonamento 461
+Processo 142 , tempo desde o ultimo escalonamento 121
+Processo 141 , tempo desde o ultimo escalonamento 99
+Processo 138 , tempo desde o ultimo escalonamento 101
+Processo 143 , tempo desde o ultimo escalonamento 91
+Processo 140 , tempo desde o ultimo escalonamento 87
+Processo 142 , tempo desde o ultimo escalonamento 32
+Processo 141 , tempo desde o ultimo escalonamento 32
+Processo 138 , tempo desde o ultimo escalonamento 41
+Processo 143 , tempo desde o ultimo escalonamento 59
+Processo 142 , tempo desde o ultimo escalonamento 56
+Processo 141 , tempo desde o ultimo escalonamento 61
+Processo 138 , tempo desde o ultimo escalonamento 51
+Processo 142 , tempo desde o ultimo escalonamento 25
+Processo 141 , tempo desde o ultimo escalonamento 44
+Processo 138 , tempo desde o ultimo escalonamento 39
+Processo 142 , tempo desde o ultimo escalonamento 76
+Processo 141 , tempo desde o ultimo escalonamento 50
+Processo 144 , tempo desde o ultimo escalonamento 52
+Processo 138 , tempo desde o ultimo escalonamento 75
+Processo 144 , tempo desde o ultimo escalonamento 36
+Processo 140 , tempo desde o ultimo escalonamento 204
+Processo 138 , tempo desde o ultimo escalonamento 28
+Processo 144 , tempo desde o ultimo escalonamento 36
+Processo 140 , tempo desde o ultimo escalonamento 31
+Processo 138 , tempo desde o ultimo escalonamento 19
+Processo 144 , tempo desde o ultimo escalonamento 16
+Processo 138 , tempo desde o ultimo escalonamento 26
+Processo 144 , tempo desde o ultimo escalonamento 18
+Processo 141 , tempo desde o ultimo escalonamento 119
+Processo 138 , tempo desde o ultimo escalonamento 17
+Processo 144 , tempo desde o ultimo escalonamento 26
+Processo 141 , tempo desde o ultimo escalonamento 16
+Processo 138 , tempo desde o ultimo escalonamento 14
+Processo 144 , tempo desde o ultimo escalonamento 18
+Processo 140 , tempo desde o ultimo escalonamento 87
+Processo 141 , tempo desde o ultimo escalonamento 38
+Processo 138 , tempo desde o ultimo escalonamento 46
+Processo 145 , tempo desde o ultimo escalonamento 77
+Processo 144 , tempo desde o ultimo escalonamento 87
+Processo 140 , tempo desde o ultimo escalonamento 80
+Processo 141 , tempo desde o ultimo escalonamento 70
+Processo 138 , tempo desde o ultimo escalonamento 92
+Processo 146 , tempo desde o ultimo escalonamento 65
+Processo 145 , tempo desde o ultimo escalonamento 53
+Processo 144 , tempo desde o ultimo escalonamento 40
+Processo 140 , tempo desde o ultimo escalonamento 47
+Processo 141 , tempo desde o ultimo escalonamento 48
+Processo 138 , tempo desde o ultimo escalonamento 30
+Processo 146 , tempo desde o ultimo escalonamento 39
+Processo 145 , tempo desde o ultimo escalonamento 37
+Processo 144 , tempo desde o ultimo escalonamento 43
+Processo 140 , tempo desde o ultimo escalonamento 45
+Processo 147 , tempo desde o ultimo escalonamento 52
+Processo 146 , tempo desde o ultimo escalonamento 46
+Processo 122 , tempo desde o ultimo escalonamento 1647
+Processo 145 , tempo desde o ultimo escalonamento 61
+Processo 144 , tempo desde o ultimo escalonamento 70
+Processo 140 , tempo desde o ultimo escalonamento 79
+Processo 147 , tempo desde o ultimo escalonamento 81
+Processo 146 , tempo desde o ultimo escalonamento 85
+Processo 145 , tempo desde o ultimo escalonamento 71
+Processo 140 , tempo desde o ultimo escalonamento 50
+Processo 147 , tempo desde o ultimo escalonamento 51
+Processo 146 , tempo desde o ultimo escalonamento 45
+Processo 122 , tempo desde o ultimo escalonamento 141
+Processo 145 , tempo desde o ultimo escalonamento 68
+Processo 140 , tempo desde o ultimo escalonamento 57
+Processo 147 , tempo desde o ultimo escalonamento 45
+Processo 146 , tempo desde o ultimo escalonamento 51
+Processo 122 , tempo desde o ultimo escalonamento 48
+Processo 145 , tempo desde o ultimo escalonamento 62
+Processo 140 , tempo desde o ultimo escalonamento 61
+Processo 147 , tempo desde o ultimo escalonamento 68
+Processo 146 , tempo desde o ultimo escalonamento 66
+Processo 122 , tempo desde o ultimo escalonamento 50
+Processo 145 , tempo desde o ultimo escalonamento 47
+Processo 140 , tempo desde o ultimo escalonamento 54
+Processo 147 , tempo desde o ultimo escalonamento 45
+Processo 145 , tempo desde o ultimo escalonamento 23
+Processo 147 , tempo desde o ultimo escalonamento 24
+Processo 145 , tempo desde o ultimo escalonamento 26
+Processo 147 , tempo desde o ultimo escalonamento 27
+Processo 145 , tempo desde o ultimo escalonamento 25
+Processo 145 , tempo desde o ultimo escalonamento 13
+Processo 144 , tempo desde o ultimo escalonamento 334
+Processo 145 , tempo desde o ultimo escalonamento 20
+Processo 145 , tempo desde o ultimo escalonamento 40
+Processo 145 , tempo desde o ultimo escalonamento 23
+Processo 145 , tempo desde o ultimo escalonamento 0
+Processo 145 , tempo desde o ultimo escalonamento 15
+Processo 145 , tempo desde o ultimo escalonamento 3
+Processo 145 , tempo desde o ultimo escalonamento 16
+Processo 145 , tempo desde o ultimo escalonamento 38
+Processo 148 , tempo desde o ultimo escalonamento 41
+Processo 146 , tempo desde o ultimo escalonamento 271
+Processo 146 , tempo desde o ultimo escalonamento 12
+Processo 146 , tempo desde o ultimo escalonamento 15
+Processo 146 , tempo desde o ultimo escalonamento 21
+Processo 144 , tempo desde o ultimo escalonamento 229
+Processo 144 , tempo desde o ultimo escalonamento 12
+Processo 149 , tempo desde o ultimo escalonamento 2
+Processo 144 , tempo desde o ultimo escalonamento 30
+Processo 149 , tempo desde o ultimo escalonamento 44
+Processo 150 , tempo desde o ultimo escalonamento 35
+Processo 149 , tempo desde o ultimo escalonamento 25
+Processo 150 , tempo desde o ultimo escalonamento 24
+Processo 149 , tempo desde o ultimo escalonamento 19
+Processo 150 , tempo desde o ultimo escalonamento 34
+Processo 149 , tempo desde o ultimo escalonamento 30
+Processo 150 , tempo desde o ultimo escalonamento 28
+Processo 149 , tempo desde o ultimo escalonamento 17
+Processo 150 , tempo desde o ultimo escalonamento 15
+Processo 149 , tempo desde o ultimo escalonamento 46
+Processo 150 , tempo desde o ultimo escalonamento 38
+Processo 150 , tempo desde o ultimo escalonamento 1
+Processo 140 , tempo desde o ultimo escalonamento 543
+Processo 150 , tempo desde o ultimo escalonamento 33
+Processo 140 , tempo desde o ultimo escalonamento 16
+Processo 140 , tempo desde o ultimo escalonamento 1
+Processo 144 , tempo desde o ultimo escalonamento 219
+Processo 144 , tempo desde o ultimo escalonamento 8
+Processo 144 , tempo desde o ultimo escalonamento 20
+Processo 144 , tempo desde o ultimo escalonamento 19
+Processo 151 , tempo desde o ultimo escalonamento 53
+Processo 151 , tempo desde o ultimo escalonamento 23
+Processo 151 , tempo desde o ultimo escalonamento 13
+Processo 151 , tempo desde o ultimo escalonamento 11
+Processo 151 , tempo desde o ultimo escalonamento 32
+Processo 151 , tempo desde o ultimo escalonamento 1
+Processo 151 , tempo desde o ultimo escalonamento 16
+Processo 151 , tempo desde o ultimo escalonamento 17
+Processo 151 , tempo desde o ultimo escalonamento 22
+Processo 151 , tempo desde o ultimo escalonamento 29
+Processo 151 , tempo desde o ultimo escalonamento 11
+Processo 151 , tempo desde o ultimo escalonamento 35
+Processo 151 , tempo desde o ultimo escalonamento 2
+Processo 152 , tempo desde o ultimo escalonamento 42
+Processo 151 , tempo desde o ultimo escalonamento 49
+Processo 153 , tempo desde o ultimo escalonamento 34
+Processo 152 , tempo desde o ultimo escalonamento 26
+Processo 145 , tempo desde o ultimo escalonamento 737
+Processo 151 , tempo desde o ultimo escalonamento 55
+Processo 153 , tempo desde o ultimo escalonamento 45
+Processo 146 , tempo desde o ultimo escalonamento 714
+Processo 145 , tempo desde o ultimo escalonamento 47
+Processo 140 , tempo desde o ultimo escalonamento 484
+Processo 151 , tempo desde o ultimo escalonamento 76
+Processo 153 , tempo desde o ultimo escalonamento 77
+Processo 146 , tempo desde o ultimo escalonamento 55
+Processo 145 , tempo desde o ultimo escalonamento 49
+Processo 148 , tempo desde o ultimo escalonamento 839
+Processo 151 , tempo desde o ultimo escalonamento 24
+Processo 153 , tempo desde o ultimo escalonamento 32
+Processo 145 , tempo desde o ultimo escalonamento 39
+Processo 148 , tempo desde o ultimo escalonamento 31
+Processo 151 , tempo desde o ultimo escalonamento 30
+Processo 153 , tempo desde o ultimo escalonamento 24
+Processo 145 , tempo desde o ultimo escalonamento 16
+Processo 151 , tempo desde o ultimo escalonamento 12
+Processo 147 , tempo desde o ultimo escalonamento 1069
+Processo 153 , tempo desde o ultimo escalonamento 20
+Processo 150 , tempo desde o ultimo escalonamento 623
+Processo 145 , tempo desde o ultimo escalonamento 60
+Processo 147 , tempo desde o ultimo escalonamento 58
+Processo 153 , tempo desde o ultimo escalonamento 51
+Processo 152 , tempo desde o ultimo escalonamento 268
+Processo 145 , tempo desde o ultimo escalonamento 34
+Processo 145 , tempo desde o ultimo escalonamento 3
+Processo 145 , tempo desde o ultimo escalonamento 19
+Processo 145 , tempo desde o ultimo escalonamento 13
+Processo 153 , tempo desde o ultimo escalonamento 64
+Processo 145 , tempo desde o ultimo escalonamento 5
+Processo 148 , tempo desde o ultimo escalonamento 161
+Processo 153 , tempo desde o ultimo escalonamento 19
+Processo 148 , tempo desde o ultimo escalonamento 23
+Processo 153 , tempo desde o ultimo escalonamento 62
+Processo 148 , tempo desde o ultimo escalonamento 49
+Processo 148 , tempo desde o ultimo escalonamento 20
+Processo 148 , tempo desde o ultimo escalonamento 3
+Processo 148 , tempo desde o ultimo escalonamento 9
+Processo 148 , tempo desde o ultimo escalonamento 10
+Processo 148 , tempo desde o ultimo escalonamento 15
+Processo 148 , tempo desde o ultimo escalonamento 8
+Processo 154 , tempo desde o ultimo escalonamento 9
+Processo 154 , tempo desde o ultimo escalonamento 12
+Processo 154 , tempo desde o ultimo escalonamento 11
+Processo 154 , tempo desde o ultimo escalonamento 16
+Processo 154 , tempo desde o ultimo escalonamento 3
+Processo 156 , tempo desde o ultimo escalonamento 33
+Processo 157 , tempo desde o ultimo escalonamento 16
+Processo 158 , tempo desde o ultimo escalonamento 9
+Processo 158 , tempo desde o ultimo escalonamento 10
+Processo 158 , tempo desde o ultimo escalonamento 25
+Processo 158 , tempo desde o ultimo escalonamento 9
+Processo 158 , tempo desde o ultimo escalonamento 23
+Processo 158 , tempo desde o ultimo escalonamento 11
+Processo 158 , tempo desde o ultimo escalonamento 23
+Processo 158 , tempo desde o ultimo escalonamento 26
+Processo 158 , tempo desde o ultimo escalonamento 31
+Processo 158 , tempo desde o ultimo escalonamento 13
+Processo 158 , tempo desde o ultimo escalonamento 7
+Processo 158 , tempo desde o ultimo escalonamento 51
+Processo 158 , tempo desde o ultimo escalonamento 2
+Processo 158 , tempo desde o ultimo escalonamento 37
+Processo 158 , tempo desde o ultimo escalonamento 31
+Processo 158 , tempo desde o ultimo escalonamento 2
+Processo 158 , tempo desde o ultimo escalonamento 25
+Processo 158 , tempo desde o ultimo escalonamento 23
+Processo 159 , tempo desde o ultimo escalonamento 83
+Processo 158 , tempo desde o ultimo escalonamento 75
+Processo 159 , tempo desde o ultimo escalonamento 15
+Processo 158 , tempo desde o ultimo escalonamento 15
+Processo 159 , tempo desde o ultimo escalonamento 29
+Processo 158 , tempo desde o ultimo escalonamento 22
+Processo 159 , tempo desde o ultimo escalonamento 12
+Processo 158 , tempo desde o ultimo escalonamento 24
+Processo 159 , tempo desde o ultimo escalonamento 24
+Processo 160 , tempo desde o ultimo escalonamento 26
+Processo 159 , tempo desde o ultimo escalonamento 31
+Processo 160 , tempo desde o ultimo escalonamento 58
+Processo 159 , tempo desde o ultimo escalonamento 53
+Processo 160 , tempo desde o ultimo escalonamento 16
+Processo 159 , tempo desde o ultimo escalonamento 28
+Processo 160 , tempo desde o ultimo escalonamento 30
+Processo 161 , tempo desde o ultimo escalonamento 45
+Processo 159 , tempo desde o ultimo escalonamento 46
+Processo 160 , tempo desde o ultimo escalonamento 61
+Processo 161 , tempo desde o ultimo escalonamento 48
+Processo 159 , tempo desde o ultimo escalonamento 44
+Processo 160 , tempo desde o ultimo escalonamento 50
+Processo 161 , tempo desde o ultimo escalonamento 38
+Processo 158 , tempo desde o ultimo escalonamento 244
+Processo 159 , tempo desde o ultimo escalonamento 63
+Processo 160 , tempo desde o ultimo escalonamento 46
+Processo 161 , tempo desde o ultimo escalonamento 62
+Processo 158 , tempo desde o ultimo escalonamento 95
+Processo 159 , tempo desde o ultimo escalonamento 72
+Processo 160 , tempo desde o ultimo escalonamento 84
+Processo 158 , tempo desde o ultimo escalonamento 27
+Processo 159 , tempo desde o ultimo escalonamento 26
+Processo 160 , tempo desde o ultimo escalonamento 8
+Processo 158 , tempo desde o ultimo escalonamento 22
+Processo 159 , tempo desde o ultimo escalonamento 25
+Processo 160 , tempo desde o ultimo escalonamento 33
+Processo 162 , tempo desde o ultimo escalonamento 26
+Processo 159 , tempo desde o ultimo escalonamento 32
+Processo 160 , tempo desde o ultimo escalonamento 30
+Processo 162 , tempo desde o ultimo escalonamento 24
+Processo 156 , tempo desde o ultimo escalonamento 1673
+Processo 159 , tempo desde o ultimo escalonamento 46
+Processo 160 , tempo desde o ultimo escalonamento 46
+Processo 162 , tempo desde o ultimo escalonamento 62
+Processo 156 , tempo desde o ultimo escalonamento 58
+Processo 160 , tempo desde o ultimo escalonamento 19
+Processo 162 , tempo desde o ultimo escalonamento 6
+Processo 156 , tempo desde o ultimo escalonamento 16
+Processo 160 , tempo desde o ultimo escalonamento 24
+Processo 162 , tempo desde o ultimo escalonamento 41
+Processo 156 , tempo desde o ultimo escalonamento 43
+Processo 160 , tempo desde o ultimo escalonamento 66
+Processo 162 , tempo desde o ultimo escalonamento 46
+Processo 159 , tempo desde o ultimo escalonamento 128
+Processo 160 , tempo desde o ultimo escalonamento 50
+Processo 162 , tempo desde o ultimo escalonamento 52
+Processo 159 , tempo desde o ultimo escalonamento 61
+Processo 160 , tempo desde o ultimo escalonamento 40
+Processo 162 , tempo desde o ultimo escalonamento 43
+Processo 159 , tempo desde o ultimo escalonamento 40
+Processo 162 , tempo desde o ultimo escalonamento 22
+Processo 163 , tempo desde o ultimo escalonamento 217
+Processo 159 , tempo desde o ultimo escalonamento 32
+Processo 162 , tempo desde o ultimo escalonamento 28
+Processo 163 , tempo desde o ultimo escalonamento 39
+Processo 159 , tempo desde o ultimo escalonamento 37
+Processo 162 , tempo desde o ultimo escalonamento 38
+Processo 163 , tempo desde o ultimo escalonamento 32
+Processo 164 , tempo desde o ultimo escalonamento 37
+Processo 159 , tempo desde o ultimo escalonamento 39
+Processo 162 , tempo desde o ultimo escalonamento 62
+Processo 163 , tempo desde o ultimo escalonamento 59
+Processo 165 , tempo desde o ultimo escalonamento 64
+Processo 164 , tempo desde o ultimo escalonamento 80
+Processo 159 , tempo desde o ultimo escalonamento 97
+Processo 162 , tempo desde o ultimo escalonamento 120
+Processo 163 , tempo desde o ultimo escalonamento 109
+Processo 165 , tempo desde o ultimo escalonamento 106
+Processo 164 , tempo desde o ultimo escalonamento 82
+Processo 159 , tempo desde o ultimo escalonamento 71
+Processo 162 , tempo desde o ultimo escalonamento 25
+Processo 164 , tempo desde o ultimo escalonamento 23
+Processo 162 , tempo desde o ultimo escalonamento 12
+Processo 164 , tempo desde o ultimo escalonamento 29
+Processo 156 , tempo desde o ultimo escalonamento 468
+Processo 159 , tempo desde o ultimo escalonamento 69
+Processo 162 , tempo desde o ultimo escalonamento 56
+Processo 166 , tempo desde o ultimo escalonamento 63
+Processo 162 , tempo desde o ultimo escalonamento 42
+Processo 166 , tempo desde o ultimo escalonamento 29
+Processo 166 , tempo desde o ultimo escalonamento 9
+Processo 166 , tempo desde o ultimo escalonamento 5
+Processo 166 , tempo desde o ultimo escalonamento 36
+Processo 166 , tempo desde o ultimo escalonamento 13
+Processo 161 , tempo desde o ultimo escalonamento 874
+Processo 159 , tempo desde o ultimo escalonamento 139
+Processo 161 , tempo desde o ultimo escalonamento 44
+Processo 159 , tempo desde o ultimo escalonamento 46
+Processo 161 , tempo desde o ultimo escalonamento 29
+Processo 159 , tempo desde o ultimo escalonamento 18
+Processo 161 , tempo desde o ultimo escalonamento 12
+Processo 163 , tempo desde o ultimo escalonamento 303
+Processo 165 , tempo desde o ultimo escalonamento 314
+Processo 159 , tempo desde o ultimo escalonamento 35
+Processo 163 , tempo desde o ultimo escalonamento 52
+Processo 165 , tempo desde o ultimo escalonamento 51
+Processo 166 , tempo desde o ultimo escalonamento 196
+Processo 159 , tempo desde o ultimo escalonamento 89
+Processo 163 , tempo desde o ultimo escalonamento 77
+Processo 165 , tempo desde o ultimo escalonamento 73
+Processo 166 , tempo desde o ultimo escalonamento 55
+Processo 163 , tempo desde o ultimo escalonamento 20
+Processo 164 , tempo desde o ultimo escalonamento 404
+Processo 166 , tempo desde o ultimo escalonamento 47
+Processo 163 , tempo desde o ultimo escalonamento 59
+Processo 164 , tempo desde o ultimo escalonamento 78
+Processo 166 , tempo desde o ultimo escalonamento 50
+Processo 163 , tempo desde o ultimo escalonamento 38
+Processo 159 , tempo desde o ultimo escalonamento 155
+Processo 164 , tempo desde o ultimo escalonamento 36
+Processo 166 , tempo desde o ultimo escalonamento 60
+Processo 163 , tempo desde o ultimo escalonamento 60
+Processo 164 , tempo desde o ultimo escalonamento 32
+Processo 166 , tempo desde o ultimo escalonamento 28
+Processo 166 , tempo desde o ultimo escalonamento 15
+Processo 163 , tempo desde o ultimo escalonamento 58
+Processo 163 , tempo desde o ultimo escalonamento 13
+Processo 166 , tempo desde o ultimo escalonamento 43
+Processo 163 , tempo desde o ultimo escalonamento 15
+Processo 166 , tempo desde o ultimo escalonamento 6
+Processo 166 , tempo desde o ultimo escalonamento 12
+Processo 168 , tempo desde o ultimo escalonamento 24
+Processo 168 , tempo desde o ultimo escalonamento 16
+Processo 169 , tempo desde o ultimo escalonamento 57
+Processo 170 , tempo desde o ultimo escalonamento 10
+Processo 171 , tempo desde o ultimo escalonamento 11
+Processo 171 , tempo desde o ultimo escalonamento 6
+Processo 171 , tempo desde o ultimo escalonamento 26
+Processo 171 , tempo desde o ultimo escalonamento 5
+Processo 171 , tempo desde o ultimo escalonamento 5
+Processo 171 , tempo desde o ultimo escalonamento 76
+Processo 171 , tempo desde o ultimo escalonamento 11
+Processo 172 , tempo desde o ultimo escalonamento 12
+Processo 172 , tempo desde o ultimo escalonamento 20
+Processo 172 , tempo desde o ultimo escalonamento 17
+Processo 172 , tempo desde o ultimo escalonamento 20
+Processo 173 , tempo desde o ultimo escalonamento 16
+Processo 172 , tempo desde o ultimo escalonamento 11
+Processo 173 , tempo desde o ultimo escalonamento 24
+Processo 172 , tempo desde o ultimo escalonamento 44
+Processo 173 , tempo desde o ultimo escalonamento 49
+Processo 172 , tempo desde o ultimo escalonamento 62
+Processo 173 , tempo desde o ultimo escalonamento 53
+Processo 172 , tempo desde o ultimo escalonamento 64
+Processo 171 , tempo desde o ultimo escalonamento 252
+Processo 173 , tempo desde o ultimo escalonamento 80
+Processo 172 , tempo desde o ultimo escalonamento 90
+Processo 171 , tempo desde o ultimo escalonamento 82
+Processo 173 , tempo desde o ultimo escalonamento 101
+Processo 171 , tempo desde o ultimo escalonamento 63
+Processo 172 , tempo desde o ultimo escalonamento 79
+Processo 173 , tempo desde o ultimo escalonamento 48
+Processo 174 , tempo desde o ultimo escalonamento 37
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                                                               ::
+::                  Snapshot at clock :  30008                   ::
+::                                                               ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+              S I M C O R E   W A I T I N G   Q U E U E 
+*****************************************************************************
+* Event   PCB   IORB   File                  RRB    Rsrc   PRRB  SocketName *
+*---------------------------------------------------------------------------*
+*   872   164   none   none                 none    none    169  games      *
+*****************************************************************************
+
+
+
+                       S I M C O R E   P C B   T A B L E 
+*****************************************************************************
+*  PCB  Size  Created  Last dispatch  Last burst  Accum CPU  Status   Prior *
+*---------------------------------------------------------------------------*
+*  171   523    29444          29981          12        153  ready        0 *
+*  172  1836    29574          29993           5         80  ready        0 *
+*  173  3954    29627          29998           1         99  ready        0 *
+*  164  2917    28205          29039          15         73  waiting      0 *
+*  174  3048    29950          30007           3          3  running      0 *
+*  175  1553    29998             -1           0          0  ready        0 *
+*****************************************************************************
+
+
+
+=====================  Summary of Statistics  ====================
+
+Total num of processes created                            =   176
+  Total num of processes terminated                             =  150
+  Total num of processes killed                                 =   20
+        num of processes in CPU ready queue                     =    4
+        num of processes in event waiting queues                =    1
+
+  Total num of wait requests                               =  203
+  Total num of signals                                     =  523
+  Total num of timer interrupts                            =  178
+
+CPU time used                                        = 15186
+CPU utilization                                      =     0.5061
+
+Memory utilization                                   =     0.5422
+
+System throughput ( x 1000 )                         =     4.9987
+Average num of processes during simulation           =     4.8609
+Average CPU time per process                         =    94.2898
+Average waiting time per process                     =   738.4261
+Average turnaround time per process                  =   828.7898
+
+
+
+
+Processo 171 , tempo desde o ultimo escalonamento 36
+Processo 172 , tempo desde o ultimo escalonamento 69
+Processo 173 , tempo desde o ultimo escalonamento 96
+Processo 174 , tempo desde o ultimo escalonamento 111
+Processo 171 , tempo desde o ultimo escalonamento 103
+Processo 175 , tempo desde o ultimo escalonamento 130
+Processo 172 , tempo desde o ultimo escalonamento 91
+Processo 173 , tempo desde o ultimo escalonamento 63
+Processo 171 , tempo desde o ultimo escalonamento 53
+Processo 175 , tempo desde o ultimo escalonamento 67
+Processo 173 , tempo desde o ultimo escalonamento 73
+Processo 171 , tempo desde o ultimo escalonamento 60
+Processo 176 , tempo desde o ultimo escalonamento 62
+Processo 175 , tempo desde o ultimo escalonamento 61
+Processo 171 , tempo desde o ultimo escalonamento 66
+Processo 176 , tempo desde o ultimo escalonamento 61
+Processo 175 , tempo desde o ultimo escalonamento 64
+Processo 171 , tempo desde o ultimo escalonamento 67
+Processo 176 , tempo desde o ultimo escalonamento 64
+Processo 175 , tempo desde o ultimo escalonamento 59
+Processo 171 , tempo desde o ultimo escalonamento 54
+Processo 176 , tempo desde o ultimo escalonamento 75
+Processo 175 , tempo desde o ultimo escalonamento 70
+Processo 171 , tempo desde o ultimo escalonamento 71
+Processo 176 , tempo desde o ultimo escalonamento 32
+Processo 175 , tempo desde o ultimo escalonamento 29
+Processo 171 , tempo desde o ultimo escalonamento 34
+Processo 176 , tempo desde o ultimo escalonamento 28
+Processo 175 , tempo desde o ultimo escalonamento 44
+Processo 171 , tempo desde o ultimo escalonamento 36
+Processo 176 , tempo desde o ultimo escalonamento 82
+Processo 177 , tempo desde o ultimo escalonamento 64
+Processo 171 , tempo desde o ultimo escalonamento 52
+Processo 176 , tempo desde o ultimo escalonamento 31
+Processo 177 , tempo desde o ultimo escalonamento 39
+Processo 171 , tempo desde o ultimo escalonamento 37
+Processo 176 , tempo desde o ultimo escalonamento 47
+Processo 177 , tempo desde o ultimo escalonamento 60
+Processo 171 , tempo desde o ultimo escalonamento 79
+Processo 178 , tempo desde o ultimo escalonamento 36
+Processo 177 , tempo desde o ultimo escalonamento 22
+Processo 179 , tempo desde o ultimo escalonamento 19
+Processo 171 , tempo desde o ultimo escalonamento 66
+Processo 176 , tempo desde o ultimo escalonamento 112
+Processo 178 , tempo desde o ultimo escalonamento 77
+Processo 177 , tempo desde o ultimo escalonamento 77
+Processo 179 , tempo desde o ultimo escalonamento 91
+Processo 175 , tempo desde o ultimo escalonamento 296
+Processo 171 , tempo desde o ultimo escalonamento 52
+Processo 178 , tempo desde o ultimo escalonamento 45
+Processo 177 , tempo desde o ultimo escalonamento 55
+Processo 179 , tempo desde o ultimo escalonamento 46
+Processo 176 , tempo desde o ultimo escalonamento 87
+Processo 175 , tempo desde o ultimo escalonamento 55
+Processo 171 , tempo desde o ultimo escalonamento 70
+Processo 178 , tempo desde o ultimo escalonamento 69
+Processo 177 , tempo desde o ultimo escalonamento 73
+Processo 176 , tempo desde o ultimo escalonamento 52
+Processo 178 , tempo desde o ultimo escalonamento 51
+Processo 177 , tempo desde o ultimo escalonamento 59
+Processo 176 , tempo desde o ultimo escalonamento 67
+Processo 178 , tempo desde o ultimo escalonamento 40
+Processo 177 , tempo desde o ultimo escalonamento 20
+Processo 176 , tempo desde o ultimo escalonamento 15
+Processo 178 , tempo desde o ultimo escalonamento 37
+Processo 182 , tempo desde o ultimo escalonamento 43
+Processo 177 , tempo desde o ultimo escalonamento 36
+Processo 176 , tempo desde o ultimo escalonamento 45
+Processo 178 , tempo desde o ultimo escalonamento 41
+Processo 182 , tempo desde o ultimo escalonamento 43
+Processo 177 , tempo desde o ultimo escalonamento 56
+Processo 176 , tempo desde o ultimo escalonamento 68
+Processo 183 , tempo desde o ultimo escalonamento 50
+Processo 182 , tempo desde o ultimo escalonamento 48
+Processo 177 , tempo desde o ultimo escalonamento 43
+Processo 176 , tempo desde o ultimo escalonamento 33
+Processo 183 , tempo desde o ultimo escalonamento 45
+Processo 182 , tempo desde o ultimo escalonamento 42
+Processo 177 , tempo desde o ultimo escalonamento 39
+Processo 176 , tempo desde o ultimo escalonamento 25
+Processo 184 , tempo desde o ultimo escalonamento 21
+Processo 182 , tempo desde o ultimo escalonamento 59
+Processo 177 , tempo desde o ultimo escalonamento 61
+Processo 176 , tempo desde o ultimo escalonamento 88
+Processo 184 , tempo desde o ultimo escalonamento 91
+Processo 185 , tempo desde o ultimo escalonamento 84
+Processo 182 , tempo desde o ultimo escalonamento 93
+Processo 177 , tempo desde o ultimo escalonamento 86
+Processo 184 , tempo desde o ultimo escalonamento 62
+Processo 185 , tempo desde o ultimo escalonamento 40
+Processo 186 , tempo desde o ultimo escalonamento 75
+Processo 177 , tempo desde o ultimo escalonamento 74
+Processo 164 , tempo desde o ultimo escalonamento 2399
+Processo 184 , tempo desde o ultimo escalonamento 101
+Processo 185 , tempo desde o ultimo escalonamento 100
+Processo 187 , tempo desde o ultimo escalonamento 82
+Processo 164 , tempo desde o ultimo escalonamento 39
+Processo 177 , tempo desde o ultimo escalonamento 74
+Processo 185 , tempo desde o ultimo escalonamento 26
+Processo 187 , tempo desde o ultimo escalonamento 52
+Processo 164 , tempo desde o ultimo escalonamento 62
+Processo 185 , tempo desde o ultimo escalonamento 72
+Processo 187 , tempo desde o ultimo escalonamento 47
+Processo 185 , tempo desde o ultimo escalonamento 26
+Processo 187 , tempo desde o ultimo escalonamento 48
+Processo 188 , tempo desde o ultimo escalonamento 54
+Processo 185 , tempo desde o ultimo escalonamento 42
+Processo 189 , tempo desde o ultimo escalonamento 26
+Processo 188 , tempo desde o ultimo escalonamento 43
+Processo 185 , tempo desde o ultimo escalonamento 54
+Processo 189 , tempo desde o ultimo escalonamento 58
+Processo 188 , tempo desde o ultimo escalonamento 29
+Processo 185 , tempo desde o ultimo escalonamento 33
+Processo 189 , tempo desde o ultimo escalonamento 35
+Processo 185 , tempo desde o ultimo escalonamento 29
+Processo 189 , tempo desde o ultimo escalonamento 13
+Processo 185 , tempo desde o ultimo escalonamento 62
+Processo 189 , tempo desde o ultimo escalonamento 70
+Processo 191 , tempo desde o ultimo escalonamento 21
+Processo 192 , tempo desde o ultimo escalonamento 21
+Processo 192 , tempo desde o ultimo escalonamento 13
+Processo 192 , tempo desde o ultimo escalonamento 19
+Processo 193 , tempo desde o ultimo escalonamento 29
+Processo 192 , tempo desde o ultimo escalonamento 58
+Processo 193 , tempo desde o ultimo escalonamento 56
+Processo 192 , tempo desde o ultimo escalonamento 44
+Processo 193 , tempo desde o ultimo escalonamento 69
+Processo 185 , tempo desde o ultimo escalonamento 223
+Processo 192 , tempo desde o ultimo escalonamento 89
+Processo 193 , tempo desde o ultimo escalonamento 62
+Processo 185 , tempo desde o ultimo escalonamento 59
+Processo 191 , tempo desde o ultimo escalonamento 281
+Processo 192 , tempo desde o ultimo escalonamento 49
+Processo 185 , tempo desde o ultimo escalonamento 69
+Processo 191 , tempo desde o ultimo escalonamento 71
+Processo 192 , tempo desde o ultimo escalonamento 86
+Processo 185 , tempo desde o ultimo escalonamento 48
+Processo 191 , tempo desde o ultimo escalonamento 46
+Processo 192 , tempo desde o ultimo escalonamento 40
+Processo 185 , tempo desde o ultimo escalonamento 59
+Processo 191 , tempo desde o ultimo escalonamento 55
+Processo 194 , tempo desde o ultimo escalonamento 40
+Processo 192 , tempo desde o ultimo escalonamento 28
+Processo 191 , tempo desde o ultimo escalonamento 29
+Processo 164 , tempo desde o ultimo escalonamento 761
+Processo 192 , tempo desde o ultimo escalonamento 35
+Processo 191 , tempo desde o ultimo escalonamento 18
+Processo 164 , tempo desde o ultimo escalonamento 59
+Processo 192 , tempo desde o ultimo escalonamento 71
+Processo 191 , tempo desde o ultimo escalonamento 72
+Processo 196 , tempo desde o ultimo escalonamento 74
+Processo 164 , tempo desde o ultimo escalonamento 37
+Processo 192 , tempo desde o ultimo escalonamento 19
+Processo 191 , tempo desde o ultimo escalonamento 22
+Processo 194 , tempo desde o ultimo escalonamento 158
+Processo 197 , tempo desde o ultimo escalonamento 33
+Processo 191 , tempo desde o ultimo escalonamento 47
+Processo 197 , tempo desde o ultimo escalonamento 29
+Processo 191 , tempo desde o ultimo escalonamento 16
+Processo 197 , tempo desde o ultimo escalonamento 17
+Processo 191 , tempo desde o ultimo escalonamento 15
+Processo 198 , tempo desde o ultimo escalonamento 10
+Processo 191 , tempo desde o ultimo escalonamento 7
+Processo 198 , tempo desde o ultimo escalonamento 14
+Processo 191 , tempo desde o ultimo escalonamento 55
+Processo 198 , tempo desde o ultimo escalonamento 48
+Processo 198 , tempo desde o ultimo escalonamento 15
+Processo 198 , tempo desde o ultimo escalonamento 18
+Processo 198 , tempo desde o ultimo escalonamento 5
+Processo 198 , tempo desde o ultimo escalonamento 13
+Processo 191 , tempo desde o ultimo escalonamento 78
+Processo 191 , tempo desde o ultimo escalonamento 3
+Processo 198 , tempo desde o ultimo escalonamento 35
+Processo 195 , tempo desde o ultimo escalonamento 364
+Processo 198 , tempo desde o ultimo escalonamento 8
+Processo 198 , tempo desde o ultimo escalonamento 2
+Processo 198 , tempo desde o ultimo escalonamento 23
+Processo 198 , tempo desde o ultimo escalonamento 13
+Processo 198 , tempo desde o ultimo escalonamento 7
+Processo 198 , tempo desde o ultimo escalonamento 25
+Processo 199 , tempo desde o ultimo escalonamento 49
+Processo 198 , tempo desde o ultimo escalonamento 42
+Processo 199 , tempo desde o ultimo escalonamento 26
+Processo 198 , tempo desde o ultimo escalonamento 20
+Processo 200 , tempo desde o ultimo escalonamento 16
+Processo 199 , tempo desde o ultimo escalonamento 38
+Processo 198 , tempo desde o ultimo escalonamento 65
+Processo 201 , tempo desde o ultimo escalonamento 77
+Processo 199 , tempo desde o ultimo escalonamento 59
+Processo 202 , tempo desde o ultimo escalonamento 58
+Processo 201 , tempo desde o ultimo escalonamento 36
+Processo 199 , tempo desde o ultimo escalonamento 43
+Processo 202 , tempo desde o ultimo escalonamento 49
+Processo 164 , tempo desde o ultimo escalonamento 554
+Processo 198 , tempo desde o ultimo escalonamento 106
+Processo 199 , tempo desde o ultimo escalonamento 53
+Processo 202 , tempo desde o ultimo escalonamento 43
+Processo 197 , tempo desde o ultimo escalonamento 538
+Processo 164 , tempo desde o ultimo escalonamento 67
+Processo 198 , tempo desde o ultimo escalonamento 78
+Processo 202 , tempo desde o ultimo escalonamento 95
+Processo 197 , tempo desde o ultimo escalonamento 66
+Processo 198 , tempo desde o ultimo escalonamento 64
+Processo 203 , tempo desde o ultimo escalonamento 51
+Processo 197 , tempo desde o ultimo escalonamento 50
+Processo 198 , tempo desde o ultimo escalonamento 39
+Processo 203 , tempo desde o ultimo escalonamento 18
+Processo 164 , tempo desde o ultimo escalonamento 143
+Processo 197 , tempo desde o ultimo escalonamento 43
+Processo 198 , tempo desde o ultimo escalonamento 59
+Processo 204 , tempo desde o ultimo escalonamento 54
+Processo 203 , tempo desde o ultimo escalonamento 51
+Processo 185 , tempo desde o ultimo escalonamento 946
+Processo 164 , tempo desde o ultimo escalonamento 79
+Processo 197 , tempo desde o ultimo escalonamento 79
+Processo 198 , tempo desde o ultimo escalonamento 83
+Processo 195 , tempo desde o ultimo escalonamento 640
+Processo 200 , tempo desde o ultimo escalonamento 512
+Processo 204 , tempo desde o ultimo escalonamento 120
+Processo 203 , tempo desde o ultimo escalonamento 124
+Processo 185 , tempo desde o ultimo escalonamento 130
+Processo 205 , tempo desde o ultimo escalonamento 111
+Processo 198 , tempo desde o ultimo escalonamento 113
+Processo 204 , tempo desde o ultimo escalonamento 94
+Processo 203 , tempo desde o ultimo escalonamento 85
+Processo 205 , tempo desde o ultimo escalonamento 47
+Processo 204 , tempo desde o ultimo escalonamento 12
+Processo 203 , tempo desde o ultimo escalonamento 21
+Processo 205 , tempo desde o ultimo escalonamento 45
+Processo 204 , tempo desde o ultimo escalonamento 81
+Processo 203 , tempo desde o ultimo escalonamento 98
+Processo 206 , tempo desde o ultimo escalonamento 92
+Processo 205 , tempo desde o ultimo escalonamento 89
+Processo 204 , tempo desde o ultimo escalonamento 57
+Processo 206 , tempo desde o ultimo escalonamento 30
+Processo 204 , tempo desde o ultimo escalonamento 19
+Processo 207 , tempo desde o ultimo escalonamento 15
+Processo 204 , tempo desde o ultimo escalonamento 22
+Processo 207 , tempo desde o ultimo escalonamento 22
+Processo 204 , tempo desde o ultimo escalonamento 23
+Processo 207 , tempo desde o ultimo escalonamento 40
+Processo 208 , tempo desde o ultimo escalonamento 49
+Processo 204 , tempo desde o ultimo escalonamento 41
+Processo 207 , tempo desde o ultimo escalonamento 29
+Processo 208 , tempo desde o ultimo escalonamento 64
+Processo 204 , tempo desde o ultimo escalonamento 64
+Processo 185 , tempo desde o ultimo escalonamento 414
+Processo 207 , tempo desde o ultimo escalonamento 99
+Processo 209 , tempo desde o ultimo escalonamento 79
+Processo 208 , tempo desde o ultimo escalonamento 65
+Processo 185 , tempo desde o ultimo escalonamento 46
+Processo 207 , tempo desde o ultimo escalonamento 62
+Processo 164 , tempo desde o ultimo escalonamento 613
+Processo 205 , tempo desde o ultimo escalonamento 320
+Processo 209 , tempo desde o ultimo escalonamento 115
+Processo 208 , tempo desde o ultimo escalonamento 114
+Processo 207 , tempo desde o ultimo escalonamento 75
+Processo 164 , tempo desde o ultimo escalonamento 58
+Processo 205 , tempo desde o ultimo escalonamento 73
+Processo 209 , tempo desde o ultimo escalonamento 65
+Processo 208 , tempo desde o ultimo escalonamento 65
+Processo 207 , tempo desde o ultimo escalonamento 76
+Processo 164 , tempo desde o ultimo escalonamento 86
+Processo 208 , tempo desde o ultimo escalonamento 29
+Processo 207 , tempo desde o ultimo escalonamento 20
+Processo 164 , tempo desde o ultimo escalonamento 8
+Processo 208 , tempo desde o ultimo escalonamento 26
+Processo 207 , tempo desde o ultimo escalonamento 26
+Processo 197 , tempo desde o ultimo escalonamento 775
+Processo 164 , tempo desde o ultimo escalonamento 27
+Processo 208 , tempo desde o ultimo escalonamento 10
+Processo 207 , tempo desde o ultimo escalonamento 12
+Processo 164 , tempo desde o ultimo escalonamento 13
+Processo 208 , tempo desde o ultimo escalonamento 33
+Processo 164 , tempo desde o ultimo escalonamento 28
+Processo 208 , tempo desde o ultimo escalonamento 9
+Processo 197 , tempo desde o ultimo escalonamento 60
+Processo 164 , tempo desde o ultimo escalonamento 34
+Processo 208 , tempo desde o ultimo escalonamento 47
+Processo 197 , tempo desde o ultimo escalonamento 35
+Processo 164 , tempo desde o ultimo escalonamento 45
+Processo 208 , tempo desde o ultimo escalonamento 31
+Processo 197 , tempo desde o ultimo escalonamento 44
+Processo 164 , tempo desde o ultimo escalonamento 20
+Processo 197 , tempo desde o ultimo escalonamento 19
+Processo 164 , tempo desde o ultimo escalonamento 19
+Processo 164 , tempo desde o ultimo escalonamento 15
+Processo 197 , tempo desde o ultimo escalonamento 21
+Processo 164 , tempo desde o ultimo escalonamento 10
+Processo 197 , tempo desde o ultimo escalonamento 40
+Processo 208 , tempo desde o ultimo escalonamento 109
+Processo 164 , tempo desde o ultimo escalonamento 60
+Processo 197 , tempo desde o ultimo escalonamento 36
+Processo 164 , tempo desde o ultimo escalonamento 19
+Processo 207 , tempo desde o ultimo escalonamento 257
+Processo 197 , tempo desde o ultimo escalonamento 17
+Processo 164 , tempo desde o ultimo escalonamento 10
+Processo 207 , tempo desde o ultimo escalonamento 13
+Processo 197 , tempo desde o ultimo escalonamento 22
+Processo 195 , tempo desde o ultimo escalonamento 1038
+Processo 203 , tempo desde o ultimo escalonamento 827
+Processo 164 , tempo desde o ultimo escalonamento 61
+Processo 207 , tempo desde o ultimo escalonamento 59
+Processo 195 , tempo desde o ultimo escalonamento 74
+Processo 164 , tempo desde o ultimo escalonamento 56
+Processo 207 , tempo desde o ultimo escalonamento 64
+Processo 195 , tempo desde o ultimo escalonamento 36
+Processo 164 , tempo desde o ultimo escalonamento 29
+Processo 207 , tempo desde o ultimo escalonamento 21
+Processo 195 , tempo desde o ultimo escalonamento 26
+Processo 204 , tempo desde o ultimo escalonamento 751
+Processo 164 , tempo desde o ultimo escalonamento 57
+Processo 207 , tempo desde o ultimo escalonamento 72
+Processo 195 , tempo desde o ultimo escalonamento 80
+Processo 204 , tempo desde o ultimo escalonamento 71
+Processo 195 , tempo desde o ultimo escalonamento 17
+Processo 204 , tempo desde o ultimo escalonamento 16
+Processo 195 , tempo desde o ultimo escalonamento 20
+Processo 195 , tempo desde o ultimo escalonamento 12
+Processo 195 , tempo desde o ultimo escalonamento 5
+Processo 203 , tempo desde o ultimo escalonamento 244
+Processo 195 , tempo desde o ultimo escalonamento 4
+Processo 195 , tempo desde o ultimo escalonamento 3
+Processo 211 , tempo desde o ultimo escalonamento 4
+Processo 203 , tempo desde o ultimo escalonamento 10
+Processo 195 , tempo desde o ultimo escalonamento 8
+Processo 211 , tempo desde o ultimo escalonamento 48
+Processo 203 , tempo desde o ultimo escalonamento 46
+Processo 195 , tempo desde o ultimo escalonamento 45
+Processo 211 , tempo desde o ultimo escalonamento 42
+Processo 185 , tempo desde o ultimo escalonamento 913
+Processo 203 , tempo desde o ultimo escalonamento 68
+Processo 195 , tempo desde o ultimo escalonamento 80
+Processo 212 , tempo desde o ultimo escalonamento 100
+Processo 211 , tempo desde o ultimo escalonamento 95
+Processo 185 , tempo desde o ultimo escalonamento 104
+Processo 203 , tempo desde o ultimo escalonamento 118
+Processo 195 , tempo desde o ultimo escalonamento 105
+Processo 212 , tempo desde o ultimo escalonamento 80
+Processo 211 , tempo desde o ultimo escalonamento 108
+Processo 213 , tempo desde o ultimo escalonamento 91
+Processo 185 , tempo desde o ultimo escalonamento 113
+Processo 195 , tempo desde o ultimo escalonamento 101
+Processo 212 , tempo desde o ultimo escalonamento 93
+Processo 211 , tempo desde o ultimo escalonamento 101
+Processo 213 , tempo desde o ultimo escalonamento 116
+Processo 185 , tempo desde o ultimo escalonamento 101
+Processo 195 , tempo desde o ultimo escalonamento 91
+Processo 212 , tempo desde o ultimo escalonamento 97
+Processo 214 , tempo desde o ultimo escalonamento 108
+Processo 215 , tempo desde o ultimo escalonamento 101
+Processo 213 , tempo desde o ultimo escalonamento 102
+Processo 185 , tempo desde o ultimo escalonamento 98
+Processo 195 , tempo desde o ultimo escalonamento 123
+Processo 212 , tempo desde o ultimo escalonamento 119
+Processo 214 , tempo desde o ultimo escalonamento 92
+Processo 215 , tempo desde o ultimo escalonamento 103
+Processo 213 , tempo desde o ultimo escalonamento 94
+Processo 185 , tempo desde o ultimo escalonamento 148
+Processo 216 , tempo desde o ultimo escalonamento 147
+Processo 195 , tempo desde o ultimo escalonamento 133
+Processo 212 , tempo desde o ultimo escalonamento 138
+Processo 217 , tempo desde o ultimo escalonamento 119
+Processo 214 , tempo desde o ultimo escalonamento 106
+Processo 215 , tempo desde o ultimo escalonamento 104
+Processo 213 , tempo desde o ultimo escalonamento 108
+Processo 185 , tempo desde o ultimo escalonamento 64
+Processo 216 , tempo desde o ultimo escalonamento 78
+Processo 212 , tempo desde o ultimo escalonamento 78
+Processo 217 , tempo desde o ultimo escalonamento 94
+Processo 214 , tempo desde o ultimo escalonamento 109
+Processo 215 , tempo desde o ultimo escalonamento 110
+Processo 213 , tempo desde o ultimo escalonamento 102
+Processo 185 , tempo desde o ultimo escalonamento 107
+Processo 218 , tempo desde o ultimo escalonamento 121
+Processo 216 , tempo desde o ultimo escalonamento 120
+Processo 212 , tempo desde o ultimo escalonamento 131
+Processo 217 , tempo desde o ultimo escalonamento 118
+Processo 214 , tempo desde o ultimo escalonamento 150
+Processo 213 , tempo desde o ultimo escalonamento 177
+Processo 185 , tempo desde o ultimo escalonamento 163
+Processo 218 , tempo desde o ultimo escalonamento 144
+Processo 216 , tempo desde o ultimo escalonamento 133
+Processo 211 , tempo desde o ultimo escalonamento 627
+Processo 212 , tempo desde o ultimo escalonamento 145
+Processo 217 , tempo desde o ultimo escalonamento 151
+Processo 214 , tempo desde o ultimo escalonamento 106
+Processo 213 , tempo desde o ultimo escalonamento 138
+Processo 185 , tempo desde o ultimo escalonamento 136
+Processo 216 , tempo desde o ultimo escalonamento 143
+Processo 211 , tempo desde o ultimo escalonamento 141
+Processo 212 , tempo desde o ultimo escalonamento 133
+Processo 217 , tempo desde o ultimo escalonamento 131
+Processo 214 , tempo desde o ultimo escalonamento 144
+Processo 213 , tempo desde o ultimo escalonamento 76
+Processo 185 , tempo desde o ultimo escalonamento 79
+Processo 216 , tempo desde o ultimo escalonamento 77
+Processo 211 , tempo desde o ultimo escalonamento 95
+Processo 212 , tempo desde o ultimo escalonamento 94
+Processo 217 , tempo desde o ultimo escalonamento 94
+Processo 214 , tempo desde o ultimo escalonamento 97
+Processo 213 , tempo desde o ultimo escalonamento 102
+Processo 185 , tempo desde o ultimo escalonamento 99
+Processo 216 , tempo desde o ultimo escalonamento 105
+Processo 211 , tempo desde o ultimo escalonamento 93
+Processo 212 , tempo desde o ultimo escalonamento 96
+Processo 217 , tempo desde o ultimo escalonamento 90
+Processo 219 , tempo desde o ultimo escalonamento 108
+Processo 213 , tempo desde o ultimo escalonamento 100
+Processo 185 , tempo desde o ultimo escalonamento 102
+Processo 216 , tempo desde o ultimo escalonamento 115
+Processo 211 , tempo desde o ultimo escalonamento 107
+Processo 218 , tempo desde o ultimo escalonamento 451
+Processo 217 , tempo desde o ultimo escalonamento 102
+Processo 219 , tempo desde o ultimo escalonamento 86
+Processo 213 , tempo desde o ultimo escalonamento 76
+Processo 185 , tempo desde o ultimo escalonamento 84
+Processo 216 , tempo desde o ultimo escalonamento 77
+Processo 211 , tempo desde o ultimo escalonamento 93
+Processo 218 , tempo desde o ultimo escalonamento 99
+Processo 217 , tempo desde o ultimo escalonamento 102
+Processo 219 , tempo desde o ultimo escalonamento 101
+Processo 213 , tempo desde o ultimo escalonamento 121
+Processo 185 , tempo desde o ultimo escalonamento 105
+Processo 216 , tempo desde o ultimo escalonamento 94
+Processo 218 , tempo desde o ultimo escalonamento 79
+Processo 217 , tempo desde o ultimo escalonamento 70
+Processo 219 , tempo desde o ultimo escalonamento 65
+Processo 214 , tempo desde o ultimo escalonamento 349
+Processo 213 , tempo desde o ultimo escalonamento 55
+Processo 185 , tempo desde o ultimo escalonamento 63
+Processo 216 , tempo desde o ultimo escalonamento 62
+Processo 219 , tempo desde o ultimo escalonamento 56
+Processo 213 , tempo desde o ultimo escalonamento 45
+Processo 185 , tempo desde o ultimo escalonamento 52
+Processo 216 , tempo desde o ultimo escalonamento 40
+Processo 214 , tempo desde o ultimo escalonamento 86
+Processo 213 , tempo desde o ultimo escalonamento 46
+Processo 185 , tempo desde o ultimo escalonamento 36
+Processo 216 , tempo desde o ultimo escalonamento 40
+Processo 213 , tempo desde o ultimo escalonamento 17
+Processo 185 , tempo desde o ultimo escalonamento 46
+Processo 216 , tempo desde o ultimo escalonamento 51
+Processo 213 , tempo desde o ultimo escalonamento 62
+Processo 216 , tempo desde o ultimo escalonamento 24
+Processo 213 , tempo desde o ultimo escalonamento 23
+Processo 211 , tempo desde o ultimo escalonamento 314
+Processo 213 , tempo desde o ultimo escalonamento 35
+Processo 217 , tempo desde o ultimo escalonamento 245
+Processo 211 , tempo desde o ultimo escalonamento 36
+Processo 217 , tempo desde o ultimo escalonamento 20
+Processo 211 , tempo desde o ultimo escalonamento 22
+Processo 217 , tempo desde o ultimo escalonamento 20
+Processo 211 , tempo desde o ultimo escalonamento 20
+Processo 217 , tempo desde o ultimo escalonamento 15
+Processo 217 , tempo desde o ultimo escalonamento 13
+Processo 217 , tempo desde o ultimo escalonamento 23
+Processo 217 , tempo desde o ultimo escalonamento 5
+Processo 217 , tempo desde o ultimo escalonamento 68
+Processo 217 , tempo desde o ultimo escalonamento 23
+Processo 221 , tempo desde o ultimo escalonamento 31
+Processo 217 , tempo desde o ultimo escalonamento 46
+Processo 221 , tempo desde o ultimo escalonamento 42
+Processo 217 , tempo desde o ultimo escalonamento 19
+Processo 221 , tempo desde o ultimo escalonamento 22
+Processo 211 , tempo desde o ultimo escalonamento 221
+Processo 217 , tempo desde o ultimo escalonamento 51
+Processo 221 , tempo desde o ultimo escalonamento 53
+Processo 211 , tempo desde o ultimo escalonamento 48
+Processo 217 , tempo desde o ultimo escalonamento 82
+Processo 221 , tempo desde o ultimo escalonamento 98
+Processo 185 , tempo desde o ultimo escalonamento 524
+Processo 211 , tempo desde o ultimo escalonamento 124
+Processo 222 , tempo desde o ultimo escalonamento 75
+Processo 217 , tempo desde o ultimo escalonamento 87
+Processo 221 , tempo desde o ultimo escalonamento 66
+Processo 211 , tempo desde o ultimo escalonamento 50
+Processo 222 , tempo desde o ultimo escalonamento 40
+Processo 217 , tempo desde o ultimo escalonamento 41
+Processo 221 , tempo desde o ultimo escalonamento 41
+Processo 211 , tempo desde o ultimo escalonamento 43
+Processo 222 , tempo desde o ultimo escalonamento 52
+Processo 217 , tempo desde o ultimo escalonamento 43
+Processo 211 , tempo desde o ultimo escalonamento 39
+Processo 217 , tempo desde o ultimo escalonamento 20
+Processo 211 , tempo desde o ultimo escalonamento 21
+Processo 217 , tempo desde o ultimo escalonamento 23
+Processo 224 , tempo desde o ultimo escalonamento 59
+Processo 217 , tempo desde o ultimo escalonamento 91
+Processo 224 , tempo desde o ultimo escalonamento 71
+Processo 217 , tempo desde o ultimo escalonamento 33
+Processo 222 , tempo desde o ultimo escalonamento 188
+Processo 224 , tempo desde o ultimo escalonamento 27
+Processo 217 , tempo desde o ultimo escalonamento 43
+Processo 222 , tempo desde o ultimo escalonamento 31
+Processo 224 , tempo desde o ultimo escalonamento 33
+Processo 217 , tempo desde o ultimo escalonamento 34
+Processo 222 , tempo desde o ultimo escalonamento 96
+Processo 224 , tempo desde o ultimo escalonamento 104
+Processo 217 , tempo desde o ultimo escalonamento 84
+Processo 222 , tempo desde o ultimo escalonamento 38
+Processo 217 , tempo desde o ultimo escalonamento 23
+Processo 222 , tempo desde o ultimo escalonamento 9
+Processo 222 , tempo desde o ultimo escalonamento 25
+Processo 222 , tempo desde o ultimo escalonamento 7
+Processo 224 , tempo desde o ultimo escalonamento 65
+Processo 225 , tempo desde o ultimo escalonamento 9
+Processo 222 , tempo desde o ultimo escalonamento 14
+Processo 225 , tempo desde o ultimo escalonamento 22
+Processo 225 , tempo desde o ultimo escalonamento 18
+Processo 225 , tempo desde o ultimo escalonamento 26
+Processo 226 , tempo desde o ultimo escalonamento 14
+Processo 225 , tempo desde o ultimo escalonamento 38
+Processo 226 , tempo desde o ultimo escalonamento 40
+Processo 227 , tempo desde o ultimo escalonamento 16
+Processo 226 , tempo desde o ultimo escalonamento 33
+Processo 227 , tempo desde o ultimo escalonamento 36
+Processo 226 , tempo desde o ultimo escalonamento 46
+Processo 227 , tempo desde o ultimo escalonamento 64
+Processo 226 , tempo desde o ultimo escalonamento 36
+Processo 227 , tempo desde o ultimo escalonamento 24
+Processo 222 , tempo desde o ultimo escalonamento 240
+Processo 226 , tempo desde o ultimo escalonamento 29
+Processo 227 , tempo desde o ultimo escalonamento 20
+Processo 222 , tempo desde o ultimo escalonamento 28
+Processo 226 , tempo desde o ultimo escalonamento 32
+Processo 227 , tempo desde o ultimo escalonamento 37
+Processo 226 , tempo desde o ultimo escalonamento 8
+Processo 221 , tempo desde o ultimo escalonamento 766
+Processo 226 , tempo desde o ultimo escalonamento 59
+Processo 221 , tempo desde o ultimo escalonamento 34
+Processo 226 , tempo desde o ultimo escalonamento 29
+Processo 221 , tempo desde o ultimo escalonamento 22
+Processo 226 , tempo desde o ultimo escalonamento 37
+Processo 221 , tempo desde o ultimo escalonamento 55
+Processo 229 , tempo desde o ultimo escalonamento 48
+Processo 221 , tempo desde o ultimo escalonamento 23
+Processo 229 , tempo desde o ultimo escalonamento 36
+Processo 221 , tempo desde o ultimo escalonamento 28
+Processo 229 , tempo desde o ultimo escalonamento 15
+Processo 229 , tempo desde o ultimo escalonamento 10
+Processo 229 , tempo desde o ultimo escalonamento 6
+Processo 229 , tempo desde o ultimo escalonamento 14
+Processo 229 , tempo desde o ultimo escalonamento 1
+Processo 229 , tempo desde o ultimo escalonamento 12
+Processo 229 , tempo desde o ultimo escalonamento 13
+Processo 226 , tempo desde o ultimo escalonamento 144
+Processo 229 , tempo desde o ultimo escalonamento 8
+Processo 226 , tempo desde o ultimo escalonamento 24
+Processo 226 , tempo desde o ultimo escalonamento 12
+Processo 226 , tempo desde o ultimo escalonamento 12
+Processo 230 , tempo desde o ultimo escalonamento 9
+Processo 230 , tempo desde o ultimo escalonamento 18
+Processo 230 , tempo desde o ultimo escalonamento 11
+Processo 230 , tempo desde o ultimo escalonamento 2
+Processo 231 , tempo desde o ultimo escalonamento 12
+Processo 231 , tempo desde o ultimo escalonamento 13
+Processo 232 , tempo desde o ultimo escalonamento 12
+Processo 232 , tempo desde o ultimo escalonamento 16
+Processo 232 , tempo desde o ultimo escalonamento 9
+Processo 232 , tempo desde o ultimo escalonamento 11
+Processo 232 , tempo desde o ultimo escalonamento 30
+Processo 232 , tempo desde o ultimo escalonamento 20
+Processo 232 , tempo desde o ultimo escalonamento 13
+Processo 232 , tempo desde o ultimo escalonamento 8
+Processo 232 , tempo desde o ultimo escalonamento 9
+Processo 232 , tempo desde o ultimo escalonamento 23
+Processo 232 , tempo desde o ultimo escalonamento 11
+Processo 233 , tempo desde o ultimo escalonamento 15
+Processo 232 , tempo desde o ultimo escalonamento 21
+Processo 233 , tempo desde o ultimo escalonamento 33
+Processo 233 , tempo desde o ultimo escalonamento 9
+Processo 234 , tempo desde o ultimo escalonamento 11
+Processo 234 , tempo desde o ultimo escalonamento 24
+Processo 234 , tempo desde o ultimo escalonamento 15
+Processo 235 , tempo desde o ultimo escalonamento 26
+Processo 234 , tempo desde o ultimo escalonamento 42
+Processo 235 , tempo desde o ultimo escalonamento 46
+Processo 236 , tempo desde o ultimo escalonamento 56
+Processo 234 , tempo desde o ultimo escalonamento 49
+Processo 235 , tempo desde o ultimo escalonamento 42
+Processo 236 , tempo desde o ultimo escalonamento 33
+Processo 234 , tempo desde o ultimo escalonamento 29
+Processo 235 , tempo desde o ultimo escalonamento 29
+Processo 236 , tempo desde o ultimo escalonamento 27
+Processo 234 , tempo desde o ultimo escalonamento 69
+Processo 235 , tempo desde o ultimo escalonamento 64
+Processo 236 , tempo desde o ultimo escalonamento 69
+Processo 237 , tempo desde o ultimo escalonamento 47
+Processo 231 , tempo desde o ultimo escalonamento 713
+Processo 234 , tempo desde o ultimo escalonamento 48
+Processo 238 , tempo desde o ultimo escalonamento 80
+Processo 236 , tempo desde o ultimo escalonamento 71
+Processo 237 , tempo desde o ultimo escalonamento 59
+Processo 234 , tempo desde o ultimo escalonamento 55
+Processo 238 , tempo desde o ultimo escalonamento 29
+Processo 236 , tempo desde o ultimo escalonamento 51
+Processo 237 , tempo desde o ultimo escalonamento 97
+Processo 231 , tempo desde o ultimo escalonamento 164
+Processo 239 , tempo desde o ultimo escalonamento 95
+Processo 238 , tempo desde o ultimo escalonamento 104
+Processo 236 , tempo desde o ultimo escalonamento 96
+Processo 231 , tempo desde o ultimo escalonamento 46
+Processo 239 , tempo desde o ultimo escalonamento 58
+Processo 235 , tempo desde o ultimo escalonamento 260
+Processo 236 , tempo desde o ultimo escalonamento 45
+Processo 231 , tempo desde o ultimo escalonamento 48
+Processo 235 , tempo desde o ultimo escalonamento 44
+Processo 237 , tempo desde o ultimo escalonamento 124
+Processo 231 , tempo desde o ultimo escalonamento 24
+Processo 238 , tempo desde o ultimo escalonamento 96
+Processo 241 , tempo desde o ultimo escalonamento 21
+Processo 235 , tempo desde o ultimo escalonamento 19
+Processo 239 , tempo desde o ultimo escalonamento 75
+Processo 237 , tempo desde o ultimo escalonamento 36
+Processo 238 , tempo desde o ultimo escalonamento 45
+Processo 235 , tempo desde o ultimo escalonamento 44
+Processo 239 , tempo desde o ultimo escalonamento 37
+Processo 237 , tempo desde o ultimo escalonamento 39
+Processo 238 , tempo desde o ultimo escalonamento 51
+Processo 235 , tempo desde o ultimo escalonamento 88
+Processo 237 , tempo desde o ultimo escalonamento 72
+Processo 238 , tempo desde o ultimo escalonamento 70
+Processo 235 , tempo desde o ultimo escalonamento 41
+Processo 237 , tempo desde o ultimo escalonamento 58
+Processo 238 , tempo desde o ultimo escalonamento 55
+Processo 235 , tempo desde o ultimo escalonamento 47
+Processo 237 , tempo desde o ultimo escalonamento 39
+Processo 238 , tempo desde o ultimo escalonamento 20
+Processo 239 , tempo desde o ultimo escalonamento 203
+Processo 235 , tempo desde o ultimo escalonamento 42
+Processo 237 , tempo desde o ultimo escalonamento 45
+Processo 238 , tempo desde o ultimo escalonamento 74
+Processo 239 , tempo desde o ultimo escalonamento 57
+Processo 236 , tempo desde o ultimo escalonamento 354
+Processo 237 , tempo desde o ultimo escalonamento 36
+Processo 238 , tempo desde o ultimo escalonamento 22
+Processo 236 , tempo desde o ultimo escalonamento 29
+Processo 237 , tempo desde o ultimo escalonamento 36
+Processo 242 , tempo desde o ultimo escalonamento 38
+Processo 238 , tempo desde o ultimo escalonamento 38
+Processo 236 , tempo desde o ultimo escalonamento 31
+Processo 232 , tempo desde o ultimo escalonamento 1058
+Processo 237 , tempo desde o ultimo escalonamento 41
+Processo 242 , tempo desde o ultimo escalonamento 34
+Processo 238 , tempo desde o ultimo escalonamento 30
+Processo 236 , tempo desde o ultimo escalonamento 33
+74.816360 media
+Processo 237 , tempo desde o ultimo escalonamento 35
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                                                               ::
+::                  Snapshot at clock :  40000                   ::
+::                                                               ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+              S I M C O R E   W A I T I N G   Q U E U E 
+*****************************************************************************
+* Event   PCB   IORB   File                  RRB    Rsrc   PRRB  SocketName *
+*---------------------------------------------------------------------------*
+*  1193   243   none   none                 none    none   none  none       *
+*****************************************************************************
+
+
+
+                       S I M C O R E   P C B   T A B L E 
+*****************************************************************************
+*  PCB  Size  Created  Last dispatch  Last burst  Accum CPU  Status   Prior *
+*---------------------------------------------------------------------------*
+*  242  5505    39882          39962           1         11  ready        0 *
+*  244  6215    39977             -1           0          0  ready        0 *
+*  243  1665    39885          39906           7          7  waiting      0 *
+*  237  7873    39187          39997           0        142  running      0 *
+*  238  4117    39233          39971           6        100  ready        0 *
+*****************************************************************************
+
+
+
+=====================  Summary of Statistics  ====================
+
+Total num of processes created                            =   245
+  Total num of processes terminated                             =  207
+  Total num of processes killed                                 =   33
+        num of processes in CPU ready queue                     =    3
+        num of processes in event waiting queues                =    1
+
+  Total num of wait requests                               =  248
+  Total num of signals                                     =  690
+  Total num of timer interrupts                            =  239
+
+CPU time used                                        = 20365
+CPU utilization                                      =     0.5091
+
+Memory utilization                                   =     0.5457
+
+System throughput ( x 1000 )                         =     5.1750
+Average num of processes during simulation           =     5.0442
+Average CPU time per process                         =    88.1388
+Average waiting time per process                     =   736.8531
+Average turnaround time per process                  =   823.5510
+
+
+
+
+
+
+
+====================     End of Simulation     ====================
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                                                               ::
+::                  Snapshot at clock :  40000                   ::
+::                                                               ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+              S I M C O R E   W A I T I N G   Q U E U E 
+*****************************************************************************
+* Event   PCB   IORB   File                  RRB    Rsrc   PRRB  SocketName *
+*---------------------------------------------------------------------------*
+*  1193   243   none   none                 none    none   none  none       *
+*****************************************************************************
+
+
+
+                       S I M C O R E   P C B   T A B L E 
+*****************************************************************************
+*  PCB  Size  Created  Last dispatch  Last burst  Accum CPU  Status   Prior *
+*---------------------------------------------------------------------------*
+*  242  5505    39882          39962           1         11  ready        0 *
+*  244  6215    39977             -1           0          0  ready        0 *
+*  243  1665    39885          39906           7          7  waiting      0 *
+*  237  7873    39187          39997           0        142  running      0 *
+*  238  4117    39233          39971           6        100  ready        0 *
+*****************************************************************************
+
+
+
+=====================  Summary of Statistics  ====================
+
+Total num of processes created                            =   245
+  Total num of processes terminated                             =  207
+  Total num of processes killed                                 =   33
+        num of processes in CPU ready queue                     =    3
+        num of processes in event waiting queues                =    1
+
+  Total num of wait requests                               =  248
+  Total num of signals                                     =  690
+  Total num of timer interrupts                            =  239
+
+CPU time used                                        = 20365
+CPU utilization                                      =     0.5091
+
+Memory utilization                                   =     0.5457
+
+System throughput ( x 1000 )                         =     5.1750
+Average num of processes during simulation           =     5.0442
+Average CPU time per process                         =    88.1388
+Average waiting time per process                     =   736.8531
+Average turnaround time per process                  =   823.5510
+
+
+
+
