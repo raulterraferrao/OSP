@@ -1,10 +1,10 @@
 
 Tempo de espera média do meu escalonador
 Execução        A           B           C           D           Média     Desvio Padrão 
-Meu:         1886.62	1435.67 	1132.59	    2255.75     	1677.66	    494.4765
-Demo:        1892.38 	1674.32 	1547.18 	1520.82	        1658.60	    169.6043
+Meu:         1886.62	1435.67 	1132.59	         2255.75     	1677.66	    494.4765
+Demo:        1892.38 	1674.32 	1547.18 	       1520.82	        1658.60	    169.6043
 
-As médias geradas dos tempo decorrido desde a última vez em que os processos foram escalado
+As médias geradas dos tempo decorrido desde a última vez em que os processos foram escalonados
 estão bem próximas. Na minha implementação ouve um desvio padrão maior haja em vista que
 consegui uma execução com o tempo de espera bem inferior que o tempo médio da execução demonstrativa
 porém também ouve uma execução com o valor bem maior, desse modo a minha implementação varia mais
